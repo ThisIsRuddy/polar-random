@@ -56,8 +56,14 @@ const getNodesByWalletAddress = async (walletAddr) => {
 }
 
 const execute = async (paramsArgv) => {
+  if (!paramsArgv[0]) {
+    console.error("You must supply a wallet address to run this function.")
+    process.exit(-1);
+  }
+
   const walletAddr = paramsArgv[0];
   console.info("Wallet address:", walletAddr);
+
   const nodes = await getNodesByWalletAddress(walletAddr);
   console.info("Nodes found for wallet:");
   console.info(nodes);

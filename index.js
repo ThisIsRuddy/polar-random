@@ -1,6 +1,6 @@
 if (!process.argv[2]) {
-  console.warn("You must supply a script name to run.")
-  process.exit(0);
+  console.error("You must supply a script name to run.")
+  process.exit(-1);
 }
 
 const loadScript = async (scriptName) => {
