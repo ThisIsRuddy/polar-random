@@ -1,23 +1,8 @@
 const axios = require('axios');
 
-const _encodeIntToHex = (num) => Number(num).toString(16).padStart(64, '0');
-
-const _decodeHexToASCII = (hex) => {
-  const hexString = hex.toString();//force conversion
-  let str = '';
-  for (let i = 0; i < hexString.length; i += 2)
-    str += String.fromCharCode(parseInt(hexString.substr(i, 2), 16));
-  return _stripNonASCII(str);
-}
-
-const _stripNonASCII = (str) => {
-  if ((str === null) || (str === ''))
-    return false;
-  else
-    str = str.toString();
-
-  return str.replace(/[^\x20-\x7E]/g, '');
-}
+const encodeIntToHex = require('../lib/encodeIntToHex');
+const decodeHexToASCII = require('../lib/decodeHexToASCII');
+const stripNonASCII = require('../lib/stripNonASCII');
 
 const getWalletNFTsTxs = async (walletAddr) => {
   const url = `https://api.snowtrace.io/api?module=account&action=tokennfttx&address=${walletAddr}&startblock=0&endblock=999999999&sort=asc`;
@@ -44,15 +29,15 @@ const getNodeType = async (id) => {
     "params": [
       {
         "from": "0x0000000000000000000000000000000000000000",
-        "data": "0xb3ad18e2" + _encodeIntToHex(id),
+        "data": "0xb3ad18e2" + encodeIntToHex(id),
         "to": "0x0217485eb50bbd886b14f7ba5ecd0f03d3069779"
       },
       "latest"
     ]
   });
 
-  const resString = _decodeHexToASCII(resHex);
-  const type = _stripNonASCII(resString).trim();
+  const resString = decodeHexToASCII(resHex);
+  const type = stripNonASCII(resString).trim();
   return type;
 }
 
