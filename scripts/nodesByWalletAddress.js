@@ -24,7 +24,7 @@ const getNodeType = async (id) => {
   const url = `https://api.avax.network/ext/bc/C/rpc`;
   const {data: {result: resHex}} = await axios.post(url, {
     "jsonrpc": "2.0",
-    "id": 4,
+    "id": 1,
     "method": "eth_call",
     "params": [
       {
@@ -41,13 +41,35 @@ const getNodeType = async (id) => {
   return type;
 }
 
+const getNodeSpecialty = async (id) => {
+  const url = `https://api.avax.network/ext/bc/C/rpc`;
+  const {data: {result: resHex}} = await axios.post(url, {
+    "jsonrpc": "2.0",
+    "method": "eth_call",
+    "id": 1,
+    "params": [
+      {
+        "from": "0x0000000000000000000000000000000000000000",
+        "data": "0x493fe80f" + encodeIntToHex(id),
+        "to": "0x0217485eb50bbd886b14f7ba5ecd0f03d3069779"
+      },
+      "latest"
+    ]
+  });
+
+  const resString = decodeHexToASCII(resHex);
+  const speciality = stripNonASCII(resString).trim();
+  return speciality;
+}
+
 const getNodesByWalletAddress = async (walletAddr) => {
   const nftIds = await getWalletNFTsTxs(walletAddr);
   const getTypeJobs = nftIds.map(async (id) => {
     const type = await getNodeType(id);
+    const specialty = await getNodeSpecialty(id);
     return {
       id,
-      type
+      type: specialty ? `${specialty} ${type}` : type
     }
   })
 
