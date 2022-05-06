@@ -22,7 +22,7 @@ Nodes found for wallet:
     { id: '1188', type: 'Ruby Everest', special: 'Ruby' },
     { id: '1189', type: 'Mont Blanc', special: '' }
 ]
-Done in 0.80s.
+Done in 0.32s.
 ```
 
 ### Get the total count of all nodes - totalNodeSupply
