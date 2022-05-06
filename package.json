@@ -7,6 +7,11 @@
     "start": "node index"
   },
   "dependencies": {
-    "axios": "^0.27.2"
+    "@supercharge/promise-pool": "^2.1.0",
+    "axios": "^0.27.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "util": "^0.12.4",
+    "web3-eth-abi": "^1.7.3"
   }
 }

@@ -1,77 +1,9 @@
-const axios = require('axios');
-
-const encodeIntToHex = require('../lib/encodeIntToHex');
-const decodeHexToASCII = require('../lib/decodeHexToASCII');
-const stripNonASCII = require('../lib/stripNonASCII');
-
-const getWalletNFTsTxs = async (walletAddr) => {
-  const url = `https://api.snowtrace.io/api?module=account&action=tokennfttx&address=${walletAddr}&startblock=0&endblock=999999999&sort=asc`;
-  const {data: {result: allTxs}} = await axios.get(url);
-
-  const polarTxs = allTxs.filter(tx => tx.tokenName === 'Polar Node');
-
-  const outTxs = polarTxs.filter(tx => tx.to !== walletAddr.toLowerCase());
-  const inTxs = polarTxs.filter(tx => tx.to === walletAddr.toLowerCase());
-
-  const outIds = outTxs.map(tx => tx.tokenID);
-  const inIds = inTxs.map(tx => tx.tokenID);
-
-  const nodeIds = inIds.filter(id => !outIds.includes(id));
-  return nodeIds;
-}
-
-const getNodeType = async (id) => {
-  const url = `https://api.avax.network/ext/bc/C/rpc`;
-  const {data: {result: resHex}} = await axios.post(url, {
-    "jsonrpc": "2.0",
-    "id": 1,
-    "method": "eth_call",
-    "params": [
-      {
-        "from": "0x0000000000000000000000000000000000000000",
-        "data": "0xb3ad18e2" + encodeIntToHex(id),
-        "to": "0x0217485eb50bbd886b14f7ba5ecd0f03d3069779"
-      },
-      "latest"
-    ]
-  });
-
-  const resString = decodeHexToASCII(resHex);
-  const type = stripNonASCII(resString).trim();
-  return type;
-}
-
-const getNodeSpecialty = async (id) => {
-  const url = `https://api.avax.network/ext/bc/C/rpc`;
-  const {data: {result: resHex}} = await axios.post(url, {
-    "jsonrpc": "2.0",
-    "method": "eth_call",
-    "id": 1,
-    "params": [
-      {
-        "from": "0x0000000000000000000000000000000000000000",
-        "data": "0x493fe80f" + encodeIntToHex(id),
-        "to": "0x0217485eb50bbd886b14f7ba5ecd0f03d3069779"
-      },
-      "latest"
-    ]
-  });
-
-  const resString = decodeHexToASCII(resHex);
-  const speciality = stripNonASCII(resString).trim();
-  return speciality;
-}
+const getNodeIdsByWallet = require("../requests/getNodeIdsByWallet");
+const getNodeById = require("../lib/getNodeById");
 
 const getNodesByWalletAddress = async (walletAddr) => {
-  const nftIds = await getWalletNFTsTxs(walletAddr);
-  const getTypeJobs = nftIds.map(async (id) => {
-    const type = await getNodeType(id);
-    const specialty = await getNodeSpecialty(id);
-    return {
-      id,
-      type: specialty ? `${specialty} ${type}` : type
-    }
-  })
+  const nodeIds = await getNodeIdsByWallet(walletAddr);
+  const getTypeJobs = nodeIds.map(async id => await getNodeById(id));
 
   const nodes = await Promise.all(getTypeJobs);
   return nodes;
