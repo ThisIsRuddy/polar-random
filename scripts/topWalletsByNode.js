@@ -1,7 +1,7 @@
-const {PromisePool} = require("@supercharge/promise-pool");
+const {PromisePool} = require('@supercharge/promise-pool');
 
-const nodesData = require("../data/nodeTypesById.json");
-const getNodeOwnerWallet = require("../requests/getNodeOwnerWallet");
+const nodesData = require('../data/nodeTypesById.json');
+const getNodeOwnerWallet = require('../requests/getNodeOwnerWallet');
 
 const topWalletsByNode = async (type) => {
 
@@ -23,7 +23,9 @@ const topWalletsByNode = async (type) => {
       !results[wallet] ? results[wallet] = 1 : results[wallet]++;
     });
 
-  const sorted = Object.entries(results).sort((a, b) => (a[1] < b[1]) ? 1 : -1);
+  const sorted = Object.entries(results)
+    .sort((a, b) => (a[1] < b[1]) ? 1 : -1)
+    .slice(0, 24);
   return Object.fromEntries(sorted);
 }
 
@@ -37,7 +39,7 @@ const execute = async (paramsArgv) => {
   console.info("Node search type:", nodeType);
 
   const topWallets = await topWalletsByNode(nodeType);
-  console.info(`Successfully found top wallets holding ${nodeType} nodes:`);
+  console.info(`Successfully found top 25 wallets holding ${nodeType} nodes:`);
   console.info(JSON.stringify(topWallets, null, 2));
 }
 
