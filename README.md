@@ -56,3 +56,69 @@ Fetching the type & speciality for 213 new nodes...
 Successfully cached 210 new node types & specialities.
 Done in 6.92s.
 ```
+
+### Summarises the counts of all cached nodes - summaryOfNodes
+
+Example:
+
+`yarn start summaryOfNodes`
+
+Response
+
+```
+Attempting to load script: summaryOfNodes
+Successfully summarised node counts:
+{
+  "total": 35806,
+  "fuji": {
+    "total": 1764,
+    "standard": 1728,
+    "silver": 1,
+    "gold": 1,
+    "diamond": 18,
+    "emerald": 16
+  },
+  "montBlanc": {
+    "total": 19998,
+    "standard": 19977,
+    "silver": 1,
+    "gold": 1,
+    "diamond": 10,
+    "emerald": 9
+  },
+  "kilimanjaro": {
+    "total": 2686,
+    "standard": 2657,
+    "silver": 1,
+    "gold": 1,
+    "diamond": 17,
+    "emerald": 10
+  },
+  "ushuaia": {
+    "total": 2170,
+    "standard": 2153,
+    "silver": 1,
+    "gold": 1,
+    "diamond": 9,
+    "emerald": 6
+  },
+  "everest": {
+    "total": 8893,
+    "standard": 8596,
+    "silver": 1,
+    "gold": 1,
+    "diamond": 220,
+    "emerald": 47,
+    "ruby": 28
+  },
+  "olympus": {
+    "total": 295,
+    "standard": 276,
+    "diamond": 9,
+    "emerald": 6,
+    "black": 2,
+    "egg": 2
+  }
+}
+Done in 0.10s.
+```
