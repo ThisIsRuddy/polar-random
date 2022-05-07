@@ -1,4 +1,4 @@
-const getNodeTotalCount = require("../requests/getNodeTotalCount");
+const getNodeTotalCount = require('../requests/getNodeTotalCount');
 
 const totalNodeSupply = async () => {
   try {

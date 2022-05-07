@@ -1,7 +1,7 @@
 const Web3EthAbi = require('web3-eth-abi');
 
-const totalSupplyABI = require("../abi/totalSupply.json");
-const apiRequest = require("../lib/apiRequest");
+const totalSupplyABI = require('../abi/totalSupply.json');
+const apiRequest = require('../lib/apiRequest');
 
 const getNodeTotalCount = async () => {
   const data = Web3EthAbi.encodeFunctionSignature(totalSupplyABI);

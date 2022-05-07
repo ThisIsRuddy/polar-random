@@ -1,7 +1,7 @@
-const Web3EthAbi = require("web3-eth-abi");
+const Web3EthAbi = require('web3-eth-abi');
 
-const apiRequest = require("../lib/apiRequest");
-const tokensOfOwnerABI = require("../abi/tokensOfOwner.json");
+const apiRequest = require('../lib/apiRequest');
+const tokensOfOwnerABI = require('../abi/tokensOfOwner.json');
 
 const getNodeIdsByWallet = async (wallet) => {
   const data = Web3EthAbi.encodeFunctionCall(tokensOfOwnerABI, [wallet]);

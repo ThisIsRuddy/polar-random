@@ -1,6 +1,6 @@
-const nodesData = require("../data/nodeTypesById.json");
-const summariseNodes = require("../lib/summariseNodes");
-const updateCachedNodeTypes = require("./updateCachedNodeTypes");
+const nodesData = require('../data/nodeTypesById.json');
+const summariseNodes = require('../lib/summariseNodes');
+const updateCachedNodeTypes = require('./updateCachedNodeTypes');
 
 const execute = async () => {
   await updateCachedNodeTypes();

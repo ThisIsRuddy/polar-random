@@ -1,12 +1,12 @@
 const path = require('path');
 const {PromisePool} = require('@supercharge/promise-pool');
 
-const writeFile = require("../lib/writeFile");
-const cachedEntries = require("../data/nodeTypesById.json");
-const getNodeType = require("../requests/getNodeType");
-const getNodeSpeciality = require("../requests/getNodeSpeciality");
-const getNodeTotalCount = require("../requests/getNodeTotalCount");
-const cachedNodes = require("../data/nodeTypesById.json");
+const writeFile = require('../lib/writeFile');
+const cachedEntries = require('../data/nodeTypesById.json');
+const getNodeType = require('../requests/getNodeType');
+const getNodeSpeciality = require('../requests/getNodeSpeciality');
+const getNodeTotalCount = require('../requests/getNodeTotalCount');
+const cachedNodes = require('../data/nodeTypesById.json');
 
 const updateCachedNodeTypes = async () => {
 

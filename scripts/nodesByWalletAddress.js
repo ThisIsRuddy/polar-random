@@ -1,6 +1,6 @@
-const getNodeIdsByWallet = require("../requests/getNodeIdsByWallet");
-const getNodeById = require("../lib/getNodeById");
-const summariseNodes = require("../lib/summariseNodes");
+const getNodeIdsByWallet = require('../requests/getNodeIdsByWallet');
+const getNodeById = require('../lib/getNodeById');
+const summariseNodes = require('../lib/summariseNodes');
 
 const getNodesByWalletAddress = async (walletAddr) => {
   const nodeIds = await getNodeIdsByWallet(walletAddr);
