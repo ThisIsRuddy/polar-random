@@ -95,7 +95,7 @@ Done in 0.10s.
 ```
 
 
-### Search for the top wallet holders by node type - topWalletsByNode
+### Search for the top 25 wallet holders by node type - topWalletsByNode
 
 Examples:
 
@@ -112,7 +112,7 @@ Total Fuji Diamond nodes found: 18.
 [0] Processing node: #0...
 [1] Processing node: #3934...
 ...
-Successfully found top wallets holding Fuji Diamond nodes:
+Successfully found top 25 wallets holding Everest Diamond nodes:
 {
   "0xb8656Cf6f863eC38869cdcdB1f9E6E17608DaF20": 2,
   "0x87E856Fbc4a8642494033471BA63A8398017cda1": 1,
