@@ -6,14 +6,19 @@ const cachedEntries = require("../data/nodeTypesById.json");
 const getNodeType = require("../requests/getNodeType");
 const getNodeSpeciality = require("../requests/getNodeSpeciality");
 const getNodeTotalCount = require("../requests/getNodeTotalCount");
+const cachedNodes = require("../data/nodeTypesById.json");
 
 const updateCachedNodeTypes = async () => {
 
-  const cachedCount = Object.keys(cachedEntries).length;
-  const lastCached = cachedEntries[cachedCount - 1].id;
-  const totalSupply = await getNodeTotalCount();
+  const cachedKeys = Object.keys(cachedNodes);
+  const cachedCount = cachedKeys.length;
+  const lastCachedId = cachedKeys[cachedCount - 1];
+  const lastCached = cachedNodes[lastCachedId];
 
-  const start = lastCached ? lastCached : 0;
+  const totalSupply = await getNodeTotalCount();
+  console.info(`Last node cached was #${lastCachedId}, latest totalSupply is ${totalSupply}.`);
+
+  const start = lastCached.id ? lastCached.id : 0;
   const end = totalSupply;
   const ids = Array.from({length: end - start}, (v, k) => k + start);
 
