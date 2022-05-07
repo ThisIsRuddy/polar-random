@@ -1,5 +1,6 @@
 const getNodeIdsByWallet = require("../requests/getNodeIdsByWallet");
 const getNodeById = require("../lib/getNodeById");
+const summariseNodes = require("../lib/summariseNodes");
 
 const getNodesByWalletAddress = async (walletAddr) => {
   const nodeIds = await getNodeIdsByWallet(walletAddr);
@@ -19,8 +20,9 @@ const execute = async (paramsArgv) => {
   console.info("Wallet address:", walletAddr);
 
   const nodes = await getNodesByWalletAddress(walletAddr);
+  const summary = summariseNodes(nodes);
   console.info("Nodes found for wallet:");
-  console.info(nodes);
+  console.info(JSON.stringify(summary, null, 2));
 }
 
 module.exports = execute;
