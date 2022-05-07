@@ -1,8 +1,10 @@
-const nodes = require('./data/nodeTypesById.json');
+const results = {
+  "wallet1": 10,
+  "wallet2": 1,
+  "wallet3": 5,
+  "wallet4": 100,
+}
 
-const keys = Object.keys(nodes);
-const cachedCount = keys.length;
-const lastCachedId = keys[cachedCount - 1];
-const lastCached = nodes[lastCachedId];
+const sorted = Object.entries(results).sort((a, b) => (a[1] < b[1]) ? 1 : -1);
 
-console.info("lastCached:", lastCached.id, lastCached.type);
+console.dir(sorted);

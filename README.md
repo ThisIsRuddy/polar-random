@@ -9,7 +9,7 @@ Example:
 
 `yarn start nodesByWalletAddress 0x6C1c0319d8dDcb0ffE1a68C5b3829Fd361587DB4`
 
-Response:
+Results:
 
 ```
 Attempting to load script: nodesByWalletAddress
@@ -17,9 +17,9 @@ Wallet address: 0x6C1c0319d8dDcb0ffE1a68C5b3829Fd361587DB4
 Nodes found for wallet:
 [
     { id: '199', type: 'Everest', special: '' },
-    { id: '1186', type: 'Emerald Mont Blanc', special: 'Emerald' },
+    { id: '1186', type: 'Mont Blanc Emerald', special: 'Emerald' },
     { id: '1187', type: 'Mont Blanc', special: '' },
-    { id: '1188', type: 'Ruby Everest', special: 'Ruby' },
+    { id: '1188', type: 'Everest Ruby', special: 'Ruby' },
     { id: '1189', type: 'Mont Blanc', special: '' }
 ]
 Done in 0.32s.
@@ -31,7 +31,7 @@ Example:
 
 `yarn start totalNodeSupply`
 
-Response
+Results:
 
 ```
 Attempting to load script: totalNodeSupply
@@ -45,7 +45,7 @@ Example:
 
 `yarn start updateCachedNodeTypes`
 
-Response
+Results:
 
 ```
 Attempting to load script: updateCachedNodeTypes
@@ -64,7 +64,7 @@ Example:
 
 `yarn start summaryOfNodes`
 
-Response
+Results:
 
 ```
 Attempting to load script: summaryOfNodes
@@ -87,39 +87,34 @@ Successfully summarised node counts:
     "diamond": 10,
     "emerald": 9
   },
-  "kilimanjaro": {
-    "total": 2686,
-    "standard": 2657,
-    "silver": 1,
-    "gold": 1,
-    "diamond": 17,
-    "emerald": 10
-  },
-  "ushuaia": {
-    "total": 2170,
-    "standard": 2153,
-    "silver": 1,
-    "gold": 1,
-    "diamond": 9,
-    "emerald": 6
-  },
-  "everest": {
-    "total": 8893,
-    "standard": 8596,
-    "silver": 1,
-    "gold": 1,
-    "diamond": 220,
-    "emerald": 47,
-    "ruby": 28
-  },
-  "olympus": {
-    "total": 295,
-    "standard": 276,
-    "diamond": 9,
-    "emerald": 6,
-    "black": 2,
-    "egg": 2
-  }
+  ...
 }
 Done in 0.10s.
+```
+
+
+### Search for the top wallet holders by node type - topWalletsByNode
+
+Examples:
+
+`yarn start topWalletsByNode Fuji`
+
+`yarn start topWalletsByNode 'Everest Diamond'`
+
+Results:
+
+```
+Attempting to load script: topWalletsByNode
+Node search type: Fuji Diamond
+Total Fuji Diamond nodes found: 18.
+[0] Processing node: #0...
+[1] Processing node: #3934...
+...
+Successfully found top wallets holding Fuji Diamond nodes:
+{
+  "0xb8656Cf6f863eC38869cdcdB1f9E6E17608DaF20": 2,
+  "0x87E856Fbc4a8642494033471BA63A8398017cda1": 1,
+  ...
+}
+Done in 0.60s.
 ```

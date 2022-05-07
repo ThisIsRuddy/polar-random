@@ -1,5 +1,5 @@
 const path = require('path');
-const {PromisePool} = require('@supercharge/promise-pool')
+const {PromisePool} = require('@supercharge/promise-pool');
 
 const writeFile = require("../lib/writeFile");
 const cachedEntries = require("../data/nodeTypesById.json");
@@ -18,7 +18,7 @@ const updateCachedNodeTypes = async () => {
   const totalSupply = await getNodeTotalCount();
   console.info(`Last node cached was #${lastCachedId}, latest totalSupply is ${totalSupply}.`);
 
-  const start = lastCached.id ? lastCached.id : 0;
+  const start = lastCached && lastCached.id ? lastCached.id : 0;
   const end = totalSupply;
   const ids = Array.from({length: end - start}, (v, k) => k + start);
 
@@ -28,7 +28,7 @@ const updateCachedNodeTypes = async () => {
 
   await PromisePool
     .for(ids)
-    .withConcurrency(100)
+    .withConcurrency(50)
     .handleError(async (err, id, pool) => {
       console.error(`Failed to load types for node ${id}.`);
       console.error(err.message);
@@ -40,7 +40,7 @@ const updateCachedNodeTypes = async () => {
 
       const record = {
         id,
-        type: specialty ? `${specialty} ${type}` : type,
+        type: specialty ? `${type} ${specialty}` : type,
         special: specialty
       }
 

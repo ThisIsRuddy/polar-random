@@ -1,52 +1,52 @@
 {
   "0": {
     "id": 0,
-    "type": "Diamond Fuji",
+    "type": "Fuji Diamond",
     "special": "Diamond"
   },
   "1": {
     "id": 1,
-    "type": "Emerald Fuji",
+    "type": "Fuji Emerald",
     "special": "Emerald"
   },
   "2": {
     "id": 2,
-    "type": "Diamond Mont Blanc",
+    "type": "Mont Blanc Diamond",
     "special": "Diamond"
   },
   "3": {
     "id": 3,
-    "type": "Emerald Mont Blanc",
+    "type": "Mont Blanc Emerald",
     "special": "Emerald"
   },
   "4": {
     "id": 4,
-    "type": "Diamond Kilimanjaro",
+    "type": "Kilimanjaro Diamond",
     "special": "Diamond"
   },
   "5": {
     "id": 5,
-    "type": "Emerald Kilimanjaro",
+    "type": "Kilimanjaro Emerald",
     "special": "Emerald"
   },
   "6": {
     "id": 6,
-    "type": "Diamond Ushuaia",
+    "type": "Ushuaia Diamond",
     "special": "Diamond"
   },
   "7": {
     "id": 7,
-    "type": "Emerald Ushuaia",
+    "type": "Ushuaia Emerald",
     "special": "Emerald"
   },
   "8": {
     "id": 8,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "9": {
     "id": 9,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "10": {
@@ -19541,7 +19541,7 @@
   },
   "3934": {
     "id": 3934,
-    "type": "Diamond Fuji",
+    "type": "Fuji Diamond",
     "special": "Diamond"
   },
   "3935": {
@@ -42519,11 +42519,6 @@
     "type": "Mont Blanc",
     "special": ""
   },
-  "8550": {
-    "id": 8550,
-    "type": "Mont Blanc",
-    "special": ""
-  },
   "8551": {
     "id": 8551,
     "type": "Mont Blanc",
@@ -42604,11 +42599,6 @@
     "type": "Mont Blanc",
     "special": ""
   },
-  "8567": {
-    "id": 8567,
-    "type": "Mont Blanc",
-    "special": ""
-  },
   "8568": {
     "id": 8568,
     "type": "Mont Blanc",
@@ -42659,11 +42649,6 @@
     "type": "Mont Blanc",
     "special": ""
   },
-  "8578": {
-    "id": 8578,
-    "type": "Mont Blanc",
-    "special": ""
-  },
   "8579": {
     "id": 8579,
     "type": "Mont Blanc",
@@ -42704,11 +42689,6 @@
     "type": "Everest",
     "special": ""
   },
-  "8587": {
-    "id": 8587,
-    "type": "Mont Blanc",
-    "special": ""
-  },
   "8588": {
     "id": 8588,
     "type": "Mont Blanc",
@@ -42719,18 +42699,8 @@
     "type": "Mont Blanc",
     "special": ""
   },
-  "8590": {
-    "id": 8590,
-    "type": "Mont Blanc",
-    "special": ""
-  },
   "8591": {
     "id": 8591,
-    "type": "Mont Blanc",
-    "special": ""
-  },
-  "8592": {
-    "id": 8592,
     "type": "Mont Blanc",
     "special": ""
   },
@@ -70086,7 +70056,7 @@
   },
   "14069": {
     "id": 14069,
-    "type": "Diamond Fuji",
+    "type": "Fuji Diamond",
     "special": "Diamond"
   },
   "14070": {
@@ -75481,7 +75451,7 @@
   },
   "15157": {
     "id": 15157,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "15158": {
@@ -84479,11 +84449,6 @@
     "type": "Mont Blanc",
     "special": ""
   },
-  "16967": {
-    "id": 16967,
-    "type": "Mont Blanc",
-    "special": ""
-  },
   "16968": {
     "id": 16968,
     "type": "Ushuaia",
@@ -84631,11 +84596,6 @@
   },
   "16997": {
     "id": 16997,
-    "type": "Mont Blanc",
-    "special": ""
-  },
-  "16998": {
-    "id": 16998,
     "type": "Mont Blanc",
     "special": ""
   },
@@ -88451,7 +88411,7 @@
   },
   "17769": {
     "id": 17769,
-    "type": "Diamond Kilimanjaro",
+    "type": "Kilimanjaro Diamond",
     "special": "Diamond"
   },
   "17770": {
@@ -92541,7 +92501,7 @@
   },
   "18588": {
     "id": 18588,
-    "type": "Diamond Mont Blanc",
+    "type": "Mont Blanc Diamond",
     "special": "Diamond"
   },
   "18589": {
@@ -99321,7 +99281,7 @@
   },
   "19950": {
     "id": 19950,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "19951": {
@@ -107411,7 +107371,7 @@
   },
   "21576": {
     "id": 21576,
-    "type": "Emerald Ushuaia",
+    "type": "Ushuaia Emerald",
     "special": "Emerald"
   },
   "21577": {
@@ -107701,7 +107661,7 @@
   },
   "21634": {
     "id": 21634,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "21635": {
@@ -113431,7 +113391,7 @@
   },
   "22781": {
     "id": 22781,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "22782": {
@@ -118626,7 +118586,7 @@
   },
   "23821": {
     "id": 23821,
-    "type": "Emerald Kilimanjaro",
+    "type": "Kilimanjaro Emerald",
     "special": "Emerald"
   },
   "23822": {
@@ -118866,7 +118826,7 @@
   },
   "23870": {
     "id": 23870,
-    "type": "Emerald Kilimanjaro",
+    "type": "Kilimanjaro Emerald",
     "special": "Emerald"
   },
   "23871": {
@@ -118941,7 +118901,7 @@
   },
   "23885": {
     "id": 23885,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "23886": {
@@ -119601,7 +119561,7 @@
   },
   "24017": {
     "id": 24017,
-    "type": "Emerald Mont Blanc",
+    "type": "Mont Blanc Emerald",
     "special": "Emerald"
   },
   "24018": {
@@ -120551,7 +120511,7 @@
   },
   "24207": {
     "id": 24207,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "24208": {
@@ -125136,7 +125096,7 @@
   },
   "25127": {
     "id": 25127,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "25128": {
@@ -125876,7 +125836,7 @@
   },
   "25275": {
     "id": 25275,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "25276": {
@@ -126667,11 +126627,6 @@
   "25436": {
     "id": 25436,
     "type": "Everest",
-    "special": ""
-  },
-  "25437": {
-    "id": 25437,
-    "type": "Mont Blanc",
     "special": ""
   },
   "25438": {
@@ -128216,7 +128171,7 @@
   },
   "25746": {
     "id": 25746,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "25747": {
@@ -128336,7 +128291,7 @@
   },
   "25770": {
     "id": 25770,
-    "type": "Diamond Kilimanjaro",
+    "type": "Kilimanjaro Diamond",
     "special": "Diamond"
   },
   "25771": {
@@ -129876,52 +129831,52 @@
   },
   "26078": {
     "id": 26078,
-    "type": "Gold Everest",
+    "type": "Everest Gold",
     "special": "Gold"
   },
   "26079": {
     "id": 26079,
-    "type": "Gold Ushuaia",
+    "type": "Ushuaia Gold",
     "special": "Gold"
   },
   "26080": {
     "id": 26080,
-    "type": "Gold Kilimanjaro",
+    "type": "Kilimanjaro Gold",
     "special": "Gold"
   },
   "26081": {
     "id": 26081,
-    "type": "Gold Mont Blanc",
+    "type": "Mont Blanc Gold",
     "special": "Gold"
   },
   "26082": {
     "id": 26082,
-    "type": "Gold Fuji",
+    "type": "Fuji Gold",
     "special": "Gold"
   },
   "26083": {
     "id": 26083,
-    "type": "Silver Everest",
+    "type": "Everest Silver",
     "special": "Silver"
   },
   "26084": {
     "id": 26084,
-    "type": "Silver Ushuaia",
+    "type": "Ushuaia Silver",
     "special": "Silver"
   },
   "26085": {
     "id": 26085,
-    "type": "Silver Kilimanjaro",
+    "type": "Kilimanjaro Silver",
     "special": "Silver"
   },
   "26086": {
     "id": 26086,
-    "type": "Silver Mont Blanc",
+    "type": "Mont Blanc Silver",
     "special": "Silver"
   },
   "26087": {
     "id": 26087,
-    "type": "Silver Fuji",
+    "type": "Fuji Silver",
     "special": "Silver"
   },
   "26088": {
@@ -131111,7 +131066,7 @@
   },
   "26325": {
     "id": 26325,
-    "type": "Emerald Mont Blanc",
+    "type": "Mont Blanc Emerald",
     "special": "Emerald"
   },
   "26326": {
@@ -133591,7 +133546,7 @@
   },
   "26829": {
     "id": 26829,
-    "type": "Emerald Mont Blanc",
+    "type": "Mont Blanc Emerald",
     "special": "Emerald"
   },
   "26830": {
@@ -133926,7 +133881,7 @@
   },
   "26898": {
     "id": 26898,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "26899": {
@@ -133941,7 +133896,7 @@
   },
   "26901": {
     "id": 26901,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "26902": {
@@ -134061,7 +134016,7 @@
   },
   "26925": {
     "id": 26925,
-    "type": "Diamond Fuji",
+    "type": "Fuji Diamond",
     "special": "Diamond"
   },
   "26927": {
@@ -134086,7 +134041,7 @@
   },
   "26931": {
     "id": 26931,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "26932": {
@@ -134276,7 +134231,7 @@
   },
   "26969": {
     "id": 26969,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "26970": {
@@ -134541,7 +134496,7 @@
   },
   "27022": {
     "id": 27022,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "27023": {
@@ -134811,7 +134766,7 @@
   },
   "27077": {
     "id": 27077,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "27078": {
@@ -135196,7 +135151,7 @@
   },
   "27155": {
     "id": 27155,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "27156": {
@@ -135386,7 +135341,7 @@
   },
   "27195": {
     "id": 27195,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "27196": {
@@ -136041,7 +135996,7 @@
   },
   "27328": {
     "id": 27328,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "27329": {
@@ -136566,7 +136521,7 @@
   },
   "27433": {
     "id": 27433,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "27434": {
@@ -136606,7 +136561,7 @@
   },
   "27443": {
     "id": 27443,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "27444": {
@@ -136651,7 +136606,7 @@
   },
   "27452": {
     "id": 27452,
-    "type": "Diamond Fuji",
+    "type": "Fuji Diamond",
     "special": "Diamond"
   },
   "27453": {
@@ -137046,7 +137001,7 @@
   },
   "27531": {
     "id": 27531,
-    "type": "Diamond Kilimanjaro",
+    "type": "Kilimanjaro Diamond",
     "special": "Diamond"
   },
   "27532": {
@@ -137136,7 +137091,7 @@
   },
   "27550": {
     "id": 27550,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "27551": {
@@ -137301,7 +137256,7 @@
   },
   "27583": {
     "id": 27583,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "27584": {
@@ -137401,7 +137356,7 @@
   },
   "27603": {
     "id": 27603,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "27604": {
@@ -137506,7 +137461,7 @@
   },
   "27624": {
     "id": 27624,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "27625": {
@@ -137651,7 +137606,7 @@
   },
   "27653": {
     "id": 27653,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "27654": {
@@ -137726,7 +137681,7 @@
   },
   "27668": {
     "id": 27668,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "27669": {
@@ -137781,7 +137736,7 @@
   },
   "27679": {
     "id": 27679,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "27680": {
@@ -137806,7 +137761,7 @@
   },
   "27684": {
     "id": 27684,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "27685": {
@@ -138001,7 +137956,7 @@
   },
   "27723": {
     "id": 27723,
-    "type": "Diamond Fuji",
+    "type": "Fuji Diamond",
     "special": "Diamond"
   },
   "27724": {
@@ -138321,7 +138276,7 @@
   },
   "27787": {
     "id": 27787,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "27788": {
@@ -138336,7 +138291,7 @@
   },
   "27790": {
     "id": 27790,
-    "type": "Diamond Kilimanjaro",
+    "type": "Kilimanjaro Diamond",
     "special": "Diamond"
   },
   "27791": {
@@ -138546,7 +138501,7 @@
   },
   "27833": {
     "id": 27833,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "27834": {
@@ -138781,7 +138736,7 @@
   },
   "27880": {
     "id": 27880,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "27881": {
@@ -139401,7 +139356,7 @@
   },
   "28005": {
     "id": 28005,
-    "type": "Emerald Fuji",
+    "type": "Fuji Emerald",
     "special": "Emerald"
   },
   "28006": {
@@ -139666,7 +139621,7 @@
   },
   "28058": {
     "id": 28058,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28059": {
@@ -139746,7 +139701,7 @@
   },
   "28074": {
     "id": 28074,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28075": {
@@ -139921,7 +139876,7 @@
   },
   "28109": {
     "id": 28109,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28110": {
@@ -140056,7 +140011,7 @@
   },
   "28136": {
     "id": 28136,
-    "type": "Diamond Kilimanjaro",
+    "type": "Kilimanjaro Diamond",
     "special": "Diamond"
   },
   "28137": {
@@ -140131,7 +140086,7 @@
   },
   "28151": {
     "id": 28151,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28152": {
@@ -140596,7 +140551,7 @@
   },
   "28246": {
     "id": 28246,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28247": {
@@ -141136,7 +141091,7 @@
   },
   "28358": {
     "id": 28358,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "28359": {
@@ -141286,12 +141241,12 @@
   },
   "28388": {
     "id": 28388,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28389": {
     "id": 28389,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28390": {
@@ -141301,7 +141256,7 @@
   },
   "28391": {
     "id": 28391,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "28392": {
@@ -141481,7 +141436,7 @@
   },
   "28427": {
     "id": 28427,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28428": {
@@ -141636,7 +141591,7 @@
   },
   "28458": {
     "id": 28458,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28459": {
@@ -141691,7 +141646,7 @@
   },
   "28469": {
     "id": 28469,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28470": {
@@ -141831,7 +141786,7 @@
   },
   "28497": {
     "id": 28497,
-    "type": "Emerald Mont Blanc",
+    "type": "Mont Blanc Emerald",
     "special": "Emerald"
   },
   "28498": {
@@ -141986,7 +141941,7 @@
   },
   "28528": {
     "id": 28528,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28529": {
@@ -141996,7 +141951,7 @@
   },
   "28530": {
     "id": 28530,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "28531": {
@@ -142031,7 +141986,7 @@
   },
   "28537": {
     "id": 28537,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28538": {
@@ -142076,7 +142031,7 @@
   },
   "28546": {
     "id": 28546,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28547": {
@@ -142106,7 +142061,7 @@
   },
   "28552": {
     "id": 28552,
-    "type": "Emerald Mont Blanc",
+    "type": "Mont Blanc Emerald",
     "special": "Emerald"
   },
   "28553": {
@@ -142251,7 +142206,7 @@
   },
   "28582": {
     "id": 28582,
-    "type": "Diamond Fuji",
+    "type": "Fuji Diamond",
     "special": "Diamond"
   },
   "28583": {
@@ -142361,7 +142316,7 @@
   },
   "28604": {
     "id": 28604,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28605": {
@@ -142376,7 +142331,7 @@
   },
   "28607": {
     "id": 28607,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28608": {
@@ -142386,12 +142341,12 @@
   },
   "28609": {
     "id": 28609,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28610": {
     "id": 28610,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28611": {
@@ -142406,7 +142361,7 @@
   },
   "28613": {
     "id": 28613,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28614": {
@@ -142441,7 +142396,7 @@
   },
   "28620": {
     "id": 28620,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "28621": {
@@ -142471,7 +142426,7 @@
   },
   "28626": {
     "id": 28626,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "28627": {
@@ -142491,7 +142446,7 @@
   },
   "28630": {
     "id": 28630,
-    "type": "Diamond Kilimanjaro",
+    "type": "Kilimanjaro Diamond",
     "special": "Diamond"
   },
   "28631": {
@@ -142526,7 +142481,7 @@
   },
   "28637": {
     "id": 28637,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28638": {
@@ -143126,7 +143081,7 @@
   },
   "28758": {
     "id": 28758,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28759": {
@@ -143156,7 +143111,7 @@
   },
   "28764": {
     "id": 28764,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "28765": {
@@ -143166,7 +143121,7 @@
   },
   "28767": {
     "id": 28767,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28768": {
@@ -143191,7 +143146,7 @@
   },
   "28772": {
     "id": 28772,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28773": {
@@ -143216,7 +143171,7 @@
   },
   "28777": {
     "id": 28777,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "28778": {
@@ -143456,12 +143411,12 @@
   },
   "28825": {
     "id": 28825,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28826": {
     "id": 28826,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28827": {
@@ -143501,7 +143456,7 @@
   },
   "28834": {
     "id": 28834,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28835": {
@@ -143616,7 +143571,7 @@
   },
   "28857": {
     "id": 28857,
-    "type": "Emerald Kilimanjaro",
+    "type": "Kilimanjaro Emerald",
     "special": "Emerald"
   },
   "28858": {
@@ -143681,7 +143636,7 @@
   },
   "28870": {
     "id": 28870,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28871": {
@@ -143696,7 +143651,7 @@
   },
   "28873": {
     "id": 28873,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "28874": {
@@ -144066,7 +144021,7 @@
   },
   "28949": {
     "id": 28949,
-    "type": "Diamond Mont Blanc",
+    "type": "Mont Blanc Diamond",
     "special": "Diamond"
   },
   "28950": {
@@ -144421,7 +144376,7 @@
   },
   "29022": {
     "id": 29022,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29023": {
@@ -144461,7 +144416,7 @@
   },
   "29030": {
     "id": 29030,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29031": {
@@ -144491,7 +144446,7 @@
   },
   "29036": {
     "id": 29036,
-    "type": "Emerald Ushuaia",
+    "type": "Ushuaia Emerald",
     "special": "Emerald"
   },
   "29037": {
@@ -144561,7 +144516,7 @@
   },
   "29050": {
     "id": 29050,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "29051": {
@@ -145096,7 +145051,7 @@
   },
   "29159": {
     "id": 29159,
-    "type": "Emerald Fuji",
+    "type": "Fuji Emerald",
     "special": "Emerald"
   },
   "29160": {
@@ -145336,22 +145291,22 @@
   },
   "29208": {
     "id": 29208,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29209": {
     "id": 29209,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29210": {
     "id": 29210,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "29211": {
     "id": 29211,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29212": {
@@ -145386,7 +145341,7 @@
   },
   "29219": {
     "id": 29219,
-    "type": "Diamond Kilimanjaro",
+    "type": "Kilimanjaro Diamond",
     "special": "Diamond"
   },
   "29220": {
@@ -145996,7 +145951,7 @@
   },
   "29342": {
     "id": 29342,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29343": {
@@ -146121,7 +146076,7 @@
   },
   "29367": {
     "id": 29367,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29368": {
@@ -146141,7 +146096,7 @@
   },
   "29371": {
     "id": 29371,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29372": {
@@ -146316,12 +146271,12 @@
   },
   "29407": {
     "id": 29407,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29408": {
     "id": 29408,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29409": {
@@ -146401,7 +146356,7 @@
   },
   "29424": {
     "id": 29424,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29425": {
@@ -146741,7 +146696,7 @@
   },
   "29492": {
     "id": 29492,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29493": {
@@ -146851,7 +146806,7 @@
   },
   "29514": {
     "id": 29514,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "29515": {
@@ -147026,7 +146981,7 @@
   },
   "29549": {
     "id": 29549,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "29550": {
@@ -147091,7 +147046,7 @@
   },
   "29562": {
     "id": 29562,
-    "type": "Diamond Fuji",
+    "type": "Fuji Diamond",
     "special": "Diamond"
   },
   "29563": {
@@ -147341,7 +147296,7 @@
   },
   "29613": {
     "id": 29613,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29614": {
@@ -147351,7 +147306,7 @@
   },
   "29615": {
     "id": 29615,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "29616": {
@@ -147361,7 +147316,7 @@
   },
   "29617": {
     "id": 29617,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29618": {
@@ -147401,7 +147356,7 @@
   },
   "29625": {
     "id": 29625,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29626": {
@@ -147416,7 +147371,7 @@
   },
   "29628": {
     "id": 29628,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29629": {
@@ -147536,12 +147491,12 @@
   },
   "29653": {
     "id": 29653,
-    "type": "Diamond Ushuaia",
+    "type": "Ushuaia Diamond",
     "special": "Diamond"
   },
   "29654": {
     "id": 29654,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29655": {
@@ -147556,7 +147511,7 @@
   },
   "29657": {
     "id": 29657,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29658": {
@@ -147591,7 +147546,7 @@
   },
   "29664": {
     "id": 29664,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29665": {
@@ -148151,7 +148106,7 @@
   },
   "29776": {
     "id": 29776,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "29777": {
@@ -148376,7 +148331,7 @@
   },
   "29821": {
     "id": 29821,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29822": {
@@ -148691,7 +148646,7 @@
   },
   "29887": {
     "id": 29887,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29888": {
@@ -148821,7 +148776,7 @@
   },
   "29915": {
     "id": 29915,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29916": {
@@ -148836,7 +148791,7 @@
   },
   "29918": {
     "id": 29918,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29919": {
@@ -148846,7 +148801,7 @@
   },
   "29920": {
     "id": 29920,
-    "type": "Diamond Kilimanjaro",
+    "type": "Kilimanjaro Diamond",
     "special": "Diamond"
   },
   "29921": {
@@ -148896,12 +148851,12 @@
   },
   "29930": {
     "id": 29930,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29931": {
     "id": 29931,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29932": {
@@ -148911,7 +148866,7 @@
   },
   "29933": {
     "id": 29933,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29934": {
@@ -149081,7 +149036,7 @@
   },
   "29969": {
     "id": 29969,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "29970": {
@@ -149546,7 +149501,7 @@
   },
   "30063": {
     "id": 30063,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "30064": {
@@ -149656,7 +149611,7 @@
   },
   "30086": {
     "id": 30086,
-    "type": "Emerald Fuji",
+    "type": "Fuji Emerald",
     "special": "Emerald"
   },
   "30087": {
@@ -149721,7 +149676,7 @@
   },
   "30099": {
     "id": 30099,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "30100": {
@@ -149751,7 +149706,7 @@
   },
   "30105": {
     "id": 30105,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "30106": {
@@ -149786,7 +149741,7 @@
   },
   "30112": {
     "id": 30112,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "30113": {
@@ -149831,7 +149786,7 @@
   },
   "30121": {
     "id": 30121,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "30122": {
@@ -149911,7 +149866,7 @@
   },
   "30137": {
     "id": 30137,
-    "type": "Diamond Fuji",
+    "type": "Fuji Diamond",
     "special": "Diamond"
   },
   "30138": {
@@ -150101,7 +150056,7 @@
   },
   "30175": {
     "id": 30175,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "30176": {
@@ -150461,7 +150416,7 @@
   },
   "30248": {
     "id": 30248,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "30249": {
@@ -150511,7 +150466,7 @@
   },
   "30258": {
     "id": 30258,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "30259": {
@@ -150541,22 +150496,22 @@
   },
   "30264": {
     "id": 30264,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "30265": {
     "id": 30265,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "30266": {
     "id": 30266,
-    "type": "Emerald Ushuaia",
+    "type": "Ushuaia Emerald",
     "special": "Emerald"
   },
   "30267": {
     "id": 30267,
-    "type": "Diamond Ushuaia",
+    "type": "Ushuaia Diamond",
     "special": "Diamond"
   },
   "30268": {
@@ -150691,17 +150646,17 @@
   },
   "30294": {
     "id": 30294,
-    "type": "Diamond Ushuaia",
+    "type": "Ushuaia Diamond",
     "special": "Diamond"
   },
   "30295": {
     "id": 30295,
-    "type": "Diamond Ushuaia",
+    "type": "Ushuaia Diamond",
     "special": "Diamond"
   },
   "30296": {
     "id": 30296,
-    "type": "Diamond Ushuaia",
+    "type": "Ushuaia Diamond",
     "special": "Diamond"
   },
   "30297": {
@@ -151391,7 +151346,7 @@
   },
   "30436": {
     "id": 30436,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "30437": {
@@ -151466,7 +151421,7 @@
   },
   "30451": {
     "id": 30451,
-    "type": "Emerald Fuji",
+    "type": "Fuji Emerald",
     "special": "Emerald"
   },
   "30452": {
@@ -151501,7 +151456,7 @@
   },
   "30459": {
     "id": 30459,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "30460": {
@@ -151866,7 +151821,7 @@
   },
   "30533": {
     "id": 30533,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "30534": {
@@ -152281,7 +152236,7 @@
   },
   "30618": {
     "id": 30618,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "30619": {
@@ -152371,7 +152326,7 @@
   },
   "30636": {
     "id": 30636,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "30637": {
@@ -152441,7 +152396,7 @@
   },
   "30650": {
     "id": 30650,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "30651": {
@@ -152466,7 +152421,7 @@
   },
   "30655": {
     "id": 30655,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "30656": {
@@ -152581,7 +152536,7 @@
   },
   "30678": {
     "id": 30678,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "30679": {
@@ -152686,7 +152641,7 @@
   },
   "30699": {
     "id": 30699,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "30700": {
@@ -152796,7 +152751,7 @@
   },
   "30721": {
     "id": 30721,
-    "type": "Diamond Ushuaia",
+    "type": "Ushuaia Diamond",
     "special": "Diamond"
   },
   "30722": {
@@ -153036,7 +152991,7 @@
   },
   "30769": {
     "id": 30769,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "30770": {
@@ -153146,7 +153101,7 @@
   },
   "30792": {
     "id": 30792,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "30793": {
@@ -153336,7 +153291,7 @@
   },
   "30830": {
     "id": 30830,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "30831": {
@@ -153346,7 +153301,7 @@
   },
   "30832": {
     "id": 30832,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "30833": {
@@ -153511,7 +153466,7 @@
   },
   "30865": {
     "id": 30865,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "30866": {
@@ -153761,7 +153716,7 @@
   },
   "30916": {
     "id": 30916,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "30917": {
@@ -153941,7 +153896,7 @@
   },
   "30952": {
     "id": 30952,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "30953": {
@@ -154021,7 +153976,7 @@
   },
   "30968": {
     "id": 30968,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "30969": {
@@ -154481,7 +154436,7 @@
   },
   "31062": {
     "id": 31062,
-    "type": "Diamond Fuji",
+    "type": "Fuji Diamond",
     "special": "Diamond"
   },
   "31063": {
@@ -154536,7 +154491,7 @@
   },
   "31073": {
     "id": 31073,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "31074": {
@@ -155101,7 +155056,7 @@
   },
   "31187": {
     "id": 31187,
-    "type": "Emerald Kilimanjaro",
+    "type": "Kilimanjaro Emerald",
     "special": "Emerald"
   },
   "31188": {
@@ -155386,7 +155341,7 @@
   },
   "31244": {
     "id": 31244,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "31245": {
@@ -155461,7 +155416,7 @@
   },
   "31259": {
     "id": 31259,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "31260": {
@@ -155551,7 +155506,7 @@
   },
   "31277": {
     "id": 31277,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "31278": {
@@ -155771,12 +155726,12 @@
   },
   "31321": {
     "id": 31321,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "31322": {
     "id": 31322,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "31323": {
@@ -155911,7 +155866,7 @@
   },
   "31351": {
     "id": 31351,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "31352": {
@@ -156416,12 +156371,12 @@
   },
   "31452": {
     "id": 31452,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "31453": {
     "id": 31453,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "31454": {
@@ -156611,7 +156566,7 @@
   },
   "31491": {
     "id": 31491,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "31492": {
@@ -156676,7 +156631,7 @@
   },
   "31504": {
     "id": 31504,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "31505": {
@@ -156901,7 +156856,7 @@
   },
   "31550": {
     "id": 31550,
-    "type": "Diamond Fuji",
+    "type": "Fuji Diamond",
     "special": "Diamond"
   },
   "31551": {
@@ -157451,7 +157406,7 @@
   },
   "31662": {
     "id": 31662,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "31663": {
@@ -157471,7 +157426,7 @@
   },
   "31666": {
     "id": 31666,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "31667": {
@@ -157511,7 +157466,7 @@
   },
   "31675": {
     "id": 31675,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "31676": {
@@ -157676,7 +157631,7 @@
   },
   "31708": {
     "id": 31708,
-    "type": "Diamond Fuji",
+    "type": "Fuji Diamond",
     "special": "Diamond"
   },
   "31709": {
@@ -157741,7 +157696,7 @@
   },
   "31721": {
     "id": 31721,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "31722": {
@@ -157786,7 +157741,7 @@
   },
   "31730": {
     "id": 31730,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "31731": {
@@ -157796,7 +157751,7 @@
   },
   "31732": {
     "id": 31732,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "31733": {
@@ -157851,7 +157806,7 @@
   },
   "31744": {
     "id": 31744,
-    "type": "Emerald Fuji",
+    "type": "Fuji Emerald",
     "special": "Emerald"
   },
   "31745": {
@@ -158091,12 +158046,12 @@
   },
   "31792": {
     "id": 31792,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "31793": {
     "id": 31793,
-    "type": "Emerald Ushuaia",
+    "type": "Ushuaia Emerald",
     "special": "Emerald"
   },
   "31794": {
@@ -158106,7 +158061,7 @@
   },
   "31795": {
     "id": 31795,
-    "type": "Emerald Kilimanjaro",
+    "type": "Kilimanjaro Emerald",
     "special": "Emerald"
   },
   "31796": {
@@ -158901,7 +158856,7 @@
   },
   "31954": {
     "id": 31954,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "31955": {
@@ -158961,7 +158916,7 @@
   },
   "31966": {
     "id": 31966,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "31967": {
@@ -158996,7 +158951,7 @@
   },
   "31973": {
     "id": 31973,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "31974": {
@@ -159021,7 +158976,7 @@
   },
   "31978": {
     "id": 31978,
-    "type": "Emerald Mont Blanc",
+    "type": "Mont Blanc Emerald",
     "special": "Emerald"
   },
   "31979": {
@@ -159156,7 +159111,7 @@
   },
   "32006": {
     "id": 32006,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32007": {
@@ -159251,7 +159206,7 @@
   },
   "32025": {
     "id": 32025,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32026": {
@@ -159461,7 +159416,7 @@
   },
   "32067": {
     "id": 32067,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32068": {
@@ -159826,7 +159781,7 @@
   },
   "32141": {
     "id": 32141,
-    "type": "Emerald Fuji",
+    "type": "Fuji Emerald",
     "special": "Emerald"
   },
   "32142": {
@@ -159836,7 +159791,7 @@
   },
   "32143": {
     "id": 32143,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32144": {
@@ -159851,7 +159806,7 @@
   },
   "32146": {
     "id": 32146,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32147": {
@@ -159886,7 +159841,7 @@
   },
   "32153": {
     "id": 32153,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32154": {
@@ -159906,12 +159861,12 @@
   },
   "32157": {
     "id": 32157,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32158": {
     "id": 32158,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32159": {
@@ -159951,7 +159906,7 @@
   },
   "32166": {
     "id": 32166,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32167": {
@@ -160011,7 +159966,7 @@
   },
   "32178": {
     "id": 32178,
-    "type": "Emerald Fuji",
+    "type": "Fuji Emerald",
     "special": "Emerald"
   },
   "32179": {
@@ -160111,7 +160066,7 @@
   },
   "32198": {
     "id": 32198,
-    "type": "Diamond Fuji",
+    "type": "Fuji Diamond",
     "special": "Diamond"
   },
   "32199": {
@@ -160241,7 +160196,7 @@
   },
   "32224": {
     "id": 32224,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "32225": {
@@ -160271,12 +160226,12 @@
   },
   "32230": {
     "id": 32230,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32231": {
     "id": 32231,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "32232": {
@@ -160416,7 +160371,7 @@
   },
   "32260": {
     "id": 32260,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "32261": {
@@ -160566,12 +160521,12 @@
   },
   "32291": {
     "id": 32291,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "32292": {
     "id": 32292,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32293": {
@@ -160656,7 +160611,7 @@
   },
   "32309": {
     "id": 32309,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32310": {
@@ -160751,7 +160706,7 @@
   },
   "32328": {
     "id": 32328,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32329": {
@@ -161151,7 +161106,7 @@
   },
   "32409": {
     "id": 32409,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32410": {
@@ -161161,7 +161116,7 @@
   },
   "32411": {
     "id": 32411,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32412": {
@@ -161561,7 +161516,7 @@
   },
   "32491": {
     "id": 32491,
-    "type": "Emerald Fuji",
+    "type": "Fuji Emerald",
     "special": "Emerald"
   },
   "32492": {
@@ -161626,7 +161581,7 @@
   },
   "32504": {
     "id": 32504,
-    "type": "Emerald Fuji",
+    "type": "Fuji Emerald",
     "special": "Emerald"
   },
   "32505": {
@@ -161641,7 +161596,7 @@
   },
   "32507": {
     "id": 32507,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "32508": {
@@ -161701,7 +161656,7 @@
   },
   "32519": {
     "id": 32519,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32520": {
@@ -161841,7 +161796,7 @@
   },
   "32547": {
     "id": 32547,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32548": {
@@ -161866,7 +161821,7 @@
   },
   "32552": {
     "id": 32552,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "32553": {
@@ -161976,7 +161931,7 @@
   },
   "32574": {
     "id": 32574,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32575": {
@@ -162101,7 +162056,7 @@
   },
   "32599": {
     "id": 32599,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32600": {
@@ -162111,7 +162066,7 @@
   },
   "32601": {
     "id": 32601,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "32602": {
@@ -162146,7 +162101,7 @@
   },
   "32608": {
     "id": 32608,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32609": {
@@ -162161,7 +162116,7 @@
   },
   "32611": {
     "id": 32611,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32612": {
@@ -162186,7 +162141,7 @@
   },
   "32616": {
     "id": 32616,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32617": {
@@ -162196,7 +162151,7 @@
   },
   "32618": {
     "id": 32618,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "32619": {
@@ -162601,7 +162556,7 @@
   },
   "32700": {
     "id": 32700,
-    "type": "Emerald Kilimanjaro",
+    "type": "Kilimanjaro Emerald",
     "special": "Emerald"
   },
   "32701": {
@@ -162796,7 +162751,7 @@
   },
   "32739": {
     "id": 32739,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32740": {
@@ -162826,7 +162781,7 @@
   },
   "32745": {
     "id": 32745,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "32746": {
@@ -162851,7 +162806,7 @@
   },
   "32750": {
     "id": 32750,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32751": {
@@ -162866,7 +162821,7 @@
   },
   "32753": {
     "id": 32753,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "32754": {
@@ -163326,7 +163281,7 @@
   },
   "32845": {
     "id": 32845,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32846": {
@@ -163501,7 +163456,7 @@
   },
   "32880": {
     "id": 32880,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32881": {
@@ -163681,7 +163636,7 @@
   },
   "32916": {
     "id": 32916,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32917": {
@@ -163711,7 +163666,7 @@
   },
   "32922": {
     "id": 32922,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "32923": {
@@ -163916,7 +163871,7 @@
   },
   "32964": {
     "id": 32964,
-    "type": "Diamond Mont Blanc",
+    "type": "Mont Blanc Diamond",
     "special": "Diamond"
   },
   "32965": {
@@ -163966,7 +163921,7 @@
   },
   "32974": {
     "id": 32974,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "32975": {
@@ -164116,7 +164071,7 @@
   },
   "33004": {
     "id": 33004,
-    "type": "Diamond Mont Blanc",
+    "type": "Mont Blanc Diamond",
     "special": "Diamond"
   },
   "33005": {
@@ -164206,7 +164161,7 @@
   },
   "33022": {
     "id": 33022,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "33023": {
@@ -164311,7 +164266,7 @@
   },
   "33044": {
     "id": 33044,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "33045": {
@@ -164416,7 +164371,7 @@
   },
   "33065": {
     "id": 33065,
-    "type": "Diamond Ushuaia",
+    "type": "Ushuaia Diamond",
     "special": "Diamond"
   },
   "33066": {
@@ -164491,7 +164446,7 @@
   },
   "33080": {
     "id": 33080,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "33081": {
@@ -164521,7 +164476,7 @@
   },
   "33086": {
     "id": 33086,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "33087": {
@@ -164816,7 +164771,7 @@
   },
   "33146": {
     "id": 33146,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "33147": {
@@ -164841,7 +164796,7 @@
   },
   "33151": {
     "id": 33151,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "33152": {
@@ -164906,7 +164861,7 @@
   },
   "33164": {
     "id": 33164,
-    "type": "Diamond Mont Blanc",
+    "type": "Mont Blanc Diamond",
     "special": "Diamond"
   },
   "33165": {
@@ -165326,7 +165281,7 @@
   },
   "33249": {
     "id": 33249,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "33250": {
@@ -165546,7 +165501,7 @@
   },
   "33293": {
     "id": 33293,
-    "type": "Emerald Fuji",
+    "type": "Fuji Emerald",
     "special": "Emerald"
   },
   "33294": {
@@ -165581,7 +165536,7 @@
   },
   "33300": {
     "id": 33300,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "33301": {
@@ -165591,7 +165546,7 @@
   },
   "33302": {
     "id": 33302,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "33303": {
@@ -165611,7 +165566,7 @@
   },
   "33306": {
     "id": 33306,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "33307": {
@@ -165646,7 +165601,7 @@
   },
   "33313": {
     "id": 33313,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "33314": {
@@ -165696,7 +165651,7 @@
   },
   "33323": {
     "id": 33323,
-    "type": "Diamond Fuji",
+    "type": "Fuji Diamond",
     "special": "Diamond"
   },
   "33324": {
@@ -165781,7 +165736,7 @@
   },
   "33340": {
     "id": 33340,
-    "type": "Emerald Mont Blanc",
+    "type": "Mont Blanc Emerald",
     "special": "Emerald"
   },
   "33341": {
@@ -165791,7 +165746,7 @@
   },
   "33342": {
     "id": 33342,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "33343": {
@@ -165801,7 +165756,7 @@
   },
   "33344": {
     "id": 33344,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "33345": {
@@ -165826,7 +165781,7 @@
   },
   "33349": {
     "id": 33349,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "33350": {
@@ -165891,7 +165846,7 @@
   },
   "33362": {
     "id": 33362,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "33363": {
@@ -166271,7 +166226,7 @@
   },
   "33438": {
     "id": 33438,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "33439": {
@@ -166306,7 +166261,7 @@
   },
   "33445": {
     "id": 33445,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "33446": {
@@ -166346,7 +166301,7 @@
   },
   "33453": {
     "id": 33453,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "33454": {
@@ -166596,7 +166551,7 @@
   },
   "33504": {
     "id": 33504,
-    "type": "Diamond Kilimanjaro",
+    "type": "Kilimanjaro Diamond",
     "special": "Diamond"
   },
   "33505": {
@@ -166646,7 +166601,7 @@
   },
   "33514": {
     "id": 33514,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "33515": {
@@ -166956,7 +166911,7 @@
   },
   "33578": {
     "id": 33578,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "33579": {
@@ -167021,7 +166976,7 @@
   },
   "33591": {
     "id": 33591,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "33592": {
@@ -167261,7 +167216,7 @@
   },
   "33639": {
     "id": 33639,
-    "type": "Diamond Ushuaia",
+    "type": "Ushuaia Diamond",
     "special": "Diamond"
   },
   "33640": {
@@ -167356,7 +167311,7 @@
   },
   "33658": {
     "id": 33658,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "33659": {
@@ -167436,7 +167391,7 @@
   },
   "33674": {
     "id": 33674,
-    "type": "Diamond Kilimanjaro",
+    "type": "Kilimanjaro Diamond",
     "special": "Diamond"
   },
   "33675": {
@@ -167596,7 +167551,7 @@
   },
   "33706": {
     "id": 33706,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "33707": {
@@ -167716,7 +167671,7 @@
   },
   "33730": {
     "id": 33730,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "33731": {
@@ -167786,7 +167741,7 @@
   },
   "33744": {
     "id": 33744,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "33745": {
@@ -167796,7 +167751,7 @@
   },
   "33746": {
     "id": 33746,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "33747": {
@@ -167881,7 +167836,7 @@
   },
   "33763": {
     "id": 33763,
-    "type": "Diamond Kilimanjaro",
+    "type": "Kilimanjaro Diamond",
     "special": "Diamond"
   },
   "33764": {
@@ -168026,7 +167981,7 @@
   },
   "33792": {
     "id": 33792,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "33793": {
@@ -168091,7 +168046,7 @@
   },
   "33805": {
     "id": 33805,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "33806": {
@@ -168116,7 +168071,7 @@
   },
   "33811": {
     "id": 33811,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "33812": {
@@ -168254,11 +168209,6 @@
     "type": "Everest",
     "special": ""
   },
-  "33839": {
-    "id": 33839,
-    "type": "Mont Blanc",
-    "special": ""
-  },
   "33840": {
     "id": 33840,
     "type": "Everest",
@@ -168291,7 +168241,7 @@
   },
   "33846": {
     "id": 33846,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "33847": {
@@ -168406,7 +168356,7 @@
   },
   "33870": {
     "id": 33870,
-    "type": "Emerald Kilimanjaro",
+    "type": "Kilimanjaro Emerald",
     "special": "Emerald"
   },
   "33871": {
@@ -168426,7 +168376,7 @@
   },
   "33874": {
     "id": 33874,
-    "type": "Diamond Mont Blanc",
+    "type": "Mont Blanc Diamond",
     "special": "Diamond"
   },
   "33875": {
@@ -168536,7 +168486,7 @@
   },
   "33896": {
     "id": 33896,
-    "type": "Diamond Fuji",
+    "type": "Fuji Diamond",
     "special": "Diamond"
   },
   "33897": {
@@ -168601,7 +168551,7 @@
   },
   "33909": {
     "id": 33909,
-    "type": "Diamond Mont Blanc",
+    "type": "Mont Blanc Diamond",
     "special": "Diamond"
   },
   "33910": {
@@ -168751,7 +168701,7 @@
   },
   "33939": {
     "id": 33939,
-    "type": "Diamond Mont Blanc",
+    "type": "Mont Blanc Diamond",
     "special": "Diamond"
   },
   "33940": {
@@ -168791,7 +168741,7 @@
   },
   "33948": {
     "id": 33948,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "33949": {
@@ -168856,7 +168806,7 @@
   },
   "33961": {
     "id": 33961,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "33962": {
@@ -168956,7 +168906,7 @@
   },
   "33981": {
     "id": 33981,
-    "type": "Emerald Kilimanjaro",
+    "type": "Kilimanjaro Emerald",
     "special": "Emerald"
   },
   "33982": {
@@ -169161,7 +169111,7 @@
   },
   "34023": {
     "id": 34023,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34024": {
@@ -169291,7 +169241,7 @@
   },
   "34049": {
     "id": 34049,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34050": {
@@ -169416,7 +169366,7 @@
   },
   "34074": {
     "id": 34074,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34075": {
@@ -169546,7 +169496,7 @@
   },
   "34100": {
     "id": 34100,
-    "type": "Emerald Kilimanjaro",
+    "type": "Kilimanjaro Emerald",
     "special": "Emerald"
   },
   "34101": {
@@ -169556,7 +169506,7 @@
   },
   "34102": {
     "id": 34102,
-    "type": "Emerald Fuji",
+    "type": "Fuji Emerald",
     "special": "Emerald"
   },
   "34103": {
@@ -169721,7 +169671,7 @@
   },
   "34135": {
     "id": 34135,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34136": {
@@ -169776,7 +169726,7 @@
   },
   "34146": {
     "id": 34146,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "34147": {
@@ -169816,7 +169766,7 @@
   },
   "34154": {
     "id": 34154,
-    "type": "Emerald Fuji",
+    "type": "Fuji Emerald",
     "special": "Emerald"
   },
   "34155": {
@@ -169836,7 +169786,7 @@
   },
   "34159": {
     "id": 34159,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34160": {
@@ -169996,7 +169946,7 @@
   },
   "34191": {
     "id": 34191,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34192": {
@@ -170081,7 +170031,7 @@
   },
   "34208": {
     "id": 34208,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34209": {
@@ -170226,7 +170176,7 @@
   },
   "34237": {
     "id": 34237,
-    "type": "Diamond Fuji",
+    "type": "Fuji Diamond",
     "special": "Diamond"
   },
   "34238": {
@@ -170306,7 +170256,7 @@
   },
   "34253": {
     "id": 34253,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "34254": {
@@ -170396,7 +170346,7 @@
   },
   "34271": {
     "id": 34271,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34272": {
@@ -170436,7 +170386,7 @@
   },
   "34279": {
     "id": 34279,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34280": {
@@ -170546,7 +170496,7 @@
   },
   "34301": {
     "id": 34301,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "34302": {
@@ -170556,7 +170506,7 @@
   },
   "34303": {
     "id": 34303,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34304": {
@@ -170591,7 +170541,7 @@
   },
   "34310": {
     "id": 34310,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34311": {
@@ -170606,7 +170556,7 @@
   },
   "34313": {
     "id": 34313,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34314": {
@@ -170616,7 +170566,7 @@
   },
   "34315": {
     "id": 34315,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "34316": {
@@ -170631,12 +170581,12 @@
   },
   "34318": {
     "id": 34318,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34319": {
     "id": 34319,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34320": {
@@ -170761,7 +170711,7 @@
   },
   "34344": {
     "id": 34344,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34345": {
@@ -170946,7 +170896,7 @@
   },
   "34381": {
     "id": 34381,
-    "type": "Emerald Olympus",
+    "type": "Olympus Emerald",
     "special": "Emerald"
   },
   "34382": {
@@ -170971,7 +170921,7 @@
   },
   "34386": {
     "id": 34386,
-    "type": "Diamond Olympus",
+    "type": "Olympus Diamond",
     "special": "Diamond"
   },
   "34387": {
@@ -170991,7 +170941,7 @@
   },
   "34390": {
     "id": 34390,
-    "type": "Diamond Olympus",
+    "type": "Olympus Diamond",
     "special": "Diamond"
   },
   "34391": {
@@ -171016,7 +170966,7 @@
   },
   "34395": {
     "id": 34395,
-    "type": "Black Olympus",
+    "type": "Olympus Black",
     "special": "Black"
   },
   "34396": {
@@ -171051,7 +171001,7 @@
   },
   "34402": {
     "id": 34402,
-    "type": "Egg Olympus",
+    "type": "Olympus Egg",
     "special": "Egg"
   },
   "34403": {
@@ -171121,7 +171071,7 @@
   },
   "34416": {
     "id": 34416,
-    "type": "Diamond Kilimanjaro",
+    "type": "Kilimanjaro Diamond",
     "special": "Diamond"
   },
   "34417": {
@@ -171471,7 +171421,7 @@
   },
   "34486": {
     "id": 34486,
-    "type": "Emerald Olympus",
+    "type": "Olympus Emerald",
     "special": "Emerald"
   },
   "34487": {
@@ -172096,7 +172046,7 @@
   },
   "34611": {
     "id": 34611,
-    "type": "Diamond Kilimanjaro",
+    "type": "Kilimanjaro Diamond",
     "special": "Diamond"
   },
   "34612": {
@@ -172111,7 +172061,7 @@
   },
   "34614": {
     "id": 34614,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34615": {
@@ -172156,7 +172106,7 @@
   },
   "34623": {
     "id": 34623,
-    "type": "Diamond Fuji",
+    "type": "Fuji Diamond",
     "special": "Diamond"
   },
   "34624": {
@@ -172261,7 +172211,7 @@
   },
   "34644": {
     "id": 34644,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34645": {
@@ -172281,7 +172231,7 @@
   },
   "34648": {
     "id": 34648,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34649": {
@@ -172541,7 +172491,7 @@
   },
   "34701": {
     "id": 34701,
-    "type": "Diamond Olympus",
+    "type": "Olympus Diamond",
     "special": "Diamond"
   },
   "34702": {
@@ -172646,7 +172596,7 @@
   },
   "34722": {
     "id": 34722,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34723": {
@@ -172696,7 +172646,7 @@
   },
   "34732": {
     "id": 34732,
-    "type": "Egg Olympus",
+    "type": "Olympus Egg",
     "special": "Egg"
   },
   "34733": {
@@ -172781,7 +172731,7 @@
   },
   "34750": {
     "id": 34750,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "34751": {
@@ -172986,7 +172936,7 @@
   },
   "34791": {
     "id": 34791,
-    "type": "Emerald Mont Blanc",
+    "type": "Mont Blanc Emerald",
     "special": "Emerald"
   },
   "34792": {
@@ -173111,7 +173061,7 @@
   },
   "34816": {
     "id": 34816,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34817": {
@@ -173126,7 +173076,7 @@
   },
   "34819": {
     "id": 34819,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34820": {
@@ -173206,7 +173156,7 @@
   },
   "34835": {
     "id": 34835,
-    "type": "Diamond Kilimanjaro",
+    "type": "Kilimanjaro Diamond",
     "special": "Diamond"
   },
   "34836": {
@@ -173311,7 +173261,7 @@
   },
   "34856": {
     "id": 34856,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "34857": {
@@ -173356,7 +173306,7 @@
   },
   "34865": {
     "id": 34865,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34866": {
@@ -173376,7 +173326,7 @@
   },
   "34869": {
     "id": 34869,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34870": {
@@ -173476,7 +173426,7 @@
   },
   "34889": {
     "id": 34889,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "34890": {
@@ -173491,7 +173441,7 @@
   },
   "34892": {
     "id": 34892,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34893": {
@@ -173501,17 +173451,17 @@
   },
   "34894": {
     "id": 34894,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34895": {
     "id": 34895,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "34896": {
     "id": 34896,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34897": {
@@ -173831,7 +173781,7 @@
   },
   "34960": {
     "id": 34960,
-    "type": "Emerald Olympus",
+    "type": "Olympus Emerald",
     "special": "Emerald"
   },
   "34961": {
@@ -173871,7 +173821,7 @@
   },
   "34968": {
     "id": 34968,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34969": {
@@ -173911,7 +173861,7 @@
   },
   "34976": {
     "id": 34976,
-    "type": "Diamond Fuji",
+    "type": "Fuji Diamond",
     "special": "Diamond"
   },
   "34977": {
@@ -173921,7 +173871,7 @@
   },
   "34978": {
     "id": 34978,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "34979": {
@@ -173961,7 +173911,7 @@
   },
   "34986": {
     "id": 34986,
-    "type": "Emerald Olympus",
+    "type": "Olympus Emerald",
     "special": "Emerald"
   },
   "34987": {
@@ -174046,7 +173996,7 @@
   },
   "35003": {
     "id": 35003,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35004": {
@@ -174141,12 +174091,12 @@
   },
   "35024": {
     "id": 35024,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35025": {
     "id": 35025,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35026": {
@@ -174161,7 +174111,7 @@
   },
   "35028": {
     "id": 35028,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35029": {
@@ -174501,7 +174451,7 @@
   },
   "35096": {
     "id": 35096,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "35097": {
@@ -174606,7 +174556,7 @@
   },
   "35117": {
     "id": 35117,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35118": {
@@ -174686,7 +174636,7 @@
   },
   "35133": {
     "id": 35133,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35134": {
@@ -174866,7 +174816,7 @@
   },
   "35170": {
     "id": 35170,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "35171": {
@@ -174896,7 +174846,7 @@
   },
   "35176": {
     "id": 35176,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35177": {
@@ -174916,7 +174866,7 @@
   },
   "35180": {
     "id": 35180,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "35181": {
@@ -174936,7 +174886,7 @@
   },
   "35184": {
     "id": 35184,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "35185": {
@@ -174981,7 +174931,7 @@
   },
   "35193": {
     "id": 35193,
-    "type": "Diamond Olympus",
+    "type": "Olympus Diamond",
     "special": "Diamond"
   },
   "35194": {
@@ -175001,7 +174951,7 @@
   },
   "35197": {
     "id": 35197,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35198": {
@@ -175026,7 +174976,7 @@
   },
   "35202": {
     "id": 35202,
-    "type": "Emerald Fuji",
+    "type": "Fuji Emerald",
     "special": "Emerald"
   },
   "35203": {
@@ -175121,7 +175071,7 @@
   },
   "35221": {
     "id": 35221,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35222": {
@@ -175291,7 +175241,7 @@
   },
   "35258": {
     "id": 35258,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35259": {
@@ -175331,7 +175281,7 @@
   },
   "35266": {
     "id": 35266,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35267": {
@@ -175461,7 +175411,7 @@
   },
   "35293": {
     "id": 35293,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35294": {
@@ -175556,7 +175506,7 @@
   },
   "35312": {
     "id": 35312,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35313": {
@@ -175631,7 +175581,7 @@
   },
   "35327": {
     "id": 35327,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35328": {
@@ -175831,7 +175781,7 @@
   },
   "35367": {
     "id": 35367,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "35368": {
@@ -175986,7 +175936,7 @@
   },
   "35399": {
     "id": 35399,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35400": {
@@ -176036,7 +175986,7 @@
   },
   "35409": {
     "id": 35409,
-    "type": "Emerald Olympus",
+    "type": "Olympus Emerald",
     "special": "Emerald"
   },
   "35410": {
@@ -176136,7 +176086,7 @@
   },
   "35429": {
     "id": 35429,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "35430": {
@@ -176166,7 +176116,7 @@
   },
   "35435": {
     "id": 35435,
-    "type": "Emerald Fuji",
+    "type": "Fuji Emerald",
     "special": "Emerald"
   },
   "35436": {
@@ -176201,12 +176151,12 @@
   },
   "35442": {
     "id": 35442,
-    "type": "Diamond Kilimanjaro",
+    "type": "Kilimanjaro Diamond",
     "special": "Diamond"
   },
   "35443": {
     "id": 35443,
-    "type": "Emerald Fuji",
+    "type": "Fuji Emerald",
     "special": "Emerald"
   },
   "35444": {
@@ -176346,7 +176296,7 @@
   },
   "35471": {
     "id": 35471,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35472": {
@@ -176396,12 +176346,12 @@
   },
   "35481": {
     "id": 35481,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35482": {
     "id": 35482,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35483": {
@@ -176471,7 +176421,7 @@
   },
   "35496": {
     "id": 35496,
-    "type": "Diamond Mont Blanc",
+    "type": "Mont Blanc Diamond",
     "special": "Diamond"
   },
   "35497": {
@@ -176556,7 +176506,7 @@
   },
   "35513": {
     "id": 35513,
-    "type": "Emerald Olympus",
+    "type": "Olympus Emerald",
     "special": "Emerald"
   },
   "35514": {
@@ -176606,7 +176556,7 @@
   },
   "35523": {
     "id": 35523,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35524": {
@@ -176736,12 +176686,12 @@
   },
   "35549": {
     "id": 35549,
-    "type": "Diamond Kilimanjaro",
+    "type": "Kilimanjaro Diamond",
     "special": "Diamond"
   },
   "35550": {
     "id": 35550,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35551": {
@@ -176846,7 +176796,7 @@
   },
   "35571": {
     "id": 35571,
-    "type": "Diamond Olympus",
+    "type": "Olympus Diamond",
     "special": "Diamond"
   },
   "35572": {
@@ -176866,7 +176816,7 @@
   },
   "35575": {
     "id": 35575,
-    "type": "Diamond Olympus",
+    "type": "Olympus Diamond",
     "special": "Diamond"
   },
   "35576": {
@@ -177026,7 +176976,7 @@
   },
   "35607": {
     "id": 35607,
-    "type": "Diamond Olympus",
+    "type": "Olympus Diamond",
     "special": "Diamond"
   },
   "35608": {
@@ -177146,7 +177096,7 @@
   },
   "35631": {
     "id": 35631,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35632": {
@@ -177256,7 +177206,7 @@
   },
   "35653": {
     "id": 35653,
-    "type": "Diamond Olympus",
+    "type": "Olympus Diamond",
     "special": "Diamond"
   },
   "35654": {
@@ -177416,7 +177366,7 @@
   },
   "35685": {
     "id": 35685,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35686": {
@@ -177636,7 +177586,7 @@
   },
   "35729": {
     "id": 35729,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35730": {
@@ -177671,7 +177621,7 @@
   },
   "35736": {
     "id": 35736,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35737": {
@@ -177821,7 +177771,7 @@
   },
   "35766": {
     "id": 35766,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35767": {
@@ -177896,7 +177846,7 @@
   },
   "35781": {
     "id": 35781,
-    "type": "Diamond Olympus",
+    "type": "Olympus Diamond",
     "special": "Diamond"
   },
   "35782": {
@@ -178036,7 +177986,7 @@
   },
   "35809": {
     "id": 35809,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35810": {
@@ -178216,7 +178166,7 @@
   },
   "35845": {
     "id": 35845,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35846": {
@@ -178226,7 +178176,7 @@
   },
   "35847": {
     "id": 35847,
-    "type": "Black Olympus",
+    "type": "Olympus Black",
     "special": "Black"
   },
   "35848": {
@@ -178516,7 +178466,7 @@
   },
   "35906": {
     "id": 35906,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "35907": {
@@ -178631,12 +178581,12 @@
   },
   "35929": {
     "id": 35929,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35930": {
     "id": 35930,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35931": {
@@ -178661,7 +178611,7 @@
   },
   "35935": {
     "id": 35935,
-    "type": "Emerald Ushuaia",
+    "type": "Ushuaia Emerald",
     "special": "Emerald"
   },
   "35936": {
@@ -178711,7 +178661,7 @@
   },
   "35945": {
     "id": 35945,
-    "type": "Emerald Everest",
+    "type": "Everest Emerald",
     "special": "Emerald"
   },
   "35946": {
@@ -178756,7 +178706,7 @@
   },
   "35954": {
     "id": 35954,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "35955": {
@@ -178766,7 +178716,7 @@
   },
   "35956": {
     "id": 35956,
-    "type": "Ruby Everest",
+    "type": "Everest Ruby",
     "special": "Ruby"
   },
   "35957": {
@@ -179001,7 +178951,7 @@
   },
   "36004": {
     "id": 36004,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "36005": {
@@ -179131,7 +179081,7 @@
   },
   "36031": {
     "id": 36031,
-    "type": "Diamond Everest",
+    "type": "Everest Diamond",
     "special": "Diamond"
   },
   "36032": {
@@ -179181,6 +179131,71 @@
   },
   "36041": {
     "id": 36041,
+    "type": "Everest",
+    "special": ""
+  },
+  "36042": {
+    "id": 36042,
+    "type": "Everest",
+    "special": ""
+  },
+  "36043": {
+    "id": 36043,
+    "type": "Mont Blanc",
+    "special": ""
+  },
+  "36044": {
+    "id": 36044,
+    "type": "Ushuaia",
+    "special": ""
+  },
+  "36045": {
+    "id": 36045,
+    "type": "Mont Blanc",
+    "special": ""
+  },
+  "36046": {
+    "id": 36046,
+    "type": "Mont Blanc",
+    "special": ""
+  },
+  "36047": {
+    "id": 36047,
+    "type": "Everest",
+    "special": ""
+  },
+  "36048": {
+    "id": 36048,
+    "type": "Mont Blanc",
+    "special": ""
+  },
+  "36049": {
+    "id": 36049,
+    "type": "Mont Blanc",
+    "special": ""
+  },
+  "36050": {
+    "id": 36050,
+    "type": "Mont Blanc",
+    "special": ""
+  },
+  "36051": {
+    "id": 36051,
+    "type": "Mont Blanc",
+    "special": ""
+  },
+  "36052": {
+    "id": 36052,
+    "type": "Mont Blanc",
+    "special": ""
+  },
+  "36053": {
+    "id": 36053,
+    "type": "Mont Blanc",
+    "special": ""
+  },
+  "36054": {
+    "id": 36054,
     "type": "Everest",
     "special": ""
   }
