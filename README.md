@@ -13,16 +13,18 @@ Results:
 
 ```
 Attempting to load script: nodesByWalletAddress
-Wallet address: 0x6C1c0319d8dDcb0ffE1a68C5b3829Fd361587DB4
+Wallet address: 0xe6570BBC5da67s6d87a8s7d69asd69as6d93
 Nodes found for wallet:
-[
-    { id: '199', type: 'Everest', special: '' },
-    { id: '1186', type: 'Mont Blanc Emerald', special: 'Emerald' },
-    { id: '1187', type: 'Mont Blanc', special: '' },
-    { id: '1188', type: 'Everest Ruby', special: 'Ruby' },
-    { id: '1189', type: 'Mont Blanc', special: '' }
-]
-Done in 0.32s.
+{                   
+  "total": 120,     
+  "fuji": {},       
+  "montBlanc": {    
+    "total": 15,    
+    "standard": 15  
+  },                
+  ...
+}
+Done in 0.48s.
 ```
 
 ### Get the total count of all nodes - totalNodeSupply
