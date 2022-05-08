@@ -18,6 +18,11 @@ const updateCachedNodeTypes = async () => {
   const updateCount = latestId - lastCachedId;
   console.info(`Last node cached was #${lastCachedId}, latestNodeId is #${latestId}.`);
 
+  if(!updateCount){
+    console.info("Cached node types & specialities are up-to date.");
+    return;
+  }
+
   const ids = Array.from({length: updateCount}, (v, k) => lastCachedId + (k + 1));
   const newEntries = [];
   console.info(`Fetching the type & speciality for ${updateCount} new nodes...`);
@@ -56,7 +61,8 @@ const updateCachedNodeTypes = async () => {
 
 const execute = async () => {
   const newEntries = await updateCachedNodeTypes();
-  console.info(`Successfully cached ${newEntries.length} new node types & specialities.`);
+  if(newEntries)
+    console.info(`Successfully cached ${newEntries.length} new node types & specialities.`);
 }
 
 module.exports = execute;
