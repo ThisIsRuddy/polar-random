@@ -12,19 +12,15 @@ const updateCachedNodeTypes = async () => {
 
   const cachedKeys = Object.keys(cachedNodes);
   const cachedCount = cachedKeys.length;
-  const lastCachedId = cachedKeys[cachedCount - 1];
-  const lastCached = cachedNodes[lastCachedId];
+  const lastCachedId = parseInt(cachedKeys[cachedCount - 1]);
 
-  const totalSupply = await getNodeTotalCount();
-  console.info(`Last node cached was #${lastCachedId}, latest totalSupply is ${totalSupply}.`);
+  const latestId = await getNodeTotalCount() + 214; //Hacky fix
+  const updateCount = latestId - lastCachedId;
+  console.info(`Last node cached was #${lastCachedId}, latestNodeId is #${latestId}.`);
 
-  const start = lastCached && lastCached.id ? lastCached.id : 0;
-  const end = totalSupply;
-  const ids = Array.from({length: end - start}, (v, k) => k + start);
-
+  const ids = Array.from({length: updateCount}, (v, k) => lastCachedId + (k + 1));
   const newEntries = [];
-
-  console.info(`Fetching the type & speciality for ${end - start + 1} new nodes...`);
+  console.info(`Fetching the type & speciality for ${updateCount} new nodes...`);
 
   await PromisePool
     .for(ids)

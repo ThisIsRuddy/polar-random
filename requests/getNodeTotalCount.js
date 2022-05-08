@@ -7,7 +7,7 @@ const getNodeTotalCount = async () => {
   const data = Web3EthAbi.encodeFunctionSignature(totalSupplyABI);
   const {data: {result: resHex}} = await apiRequest(data);
   const totalCount = Web3EthAbi.decodeParameter('uint256', resHex);
-  return totalCount;
+  return parseInt(totalCount);
 }
 
 module.exports = getNodeTotalCount;
