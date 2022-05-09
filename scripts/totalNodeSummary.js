@@ -9,7 +9,8 @@ const totalNodeSummary = () => {
 }
 
 const execute = async () => {
-  await updateCache();
+  await updateCache(false);
+
   const summary = totalNodeSummary();
   console.info(`Successfully summarised node counts:`);
   console.info(JSON.stringify(summary, null, 2));

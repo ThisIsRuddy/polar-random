@@ -1,6 +1,7 @@
 const getNodeIdsByWallet = require('../requests/getNodeIdsByWallet');
 const getNodeById = require('../lib/getNodeById');
 const summariseNodes = require('../lib/summariseNodes');
+const updateCache = require("./updateCache");
 
 const nodesByWallet = async (walletAddr) => {
   const nodeIds = await getNodeIdsByWallet(walletAddr);
@@ -15,6 +16,8 @@ const execute = async (paramsArgv) => {
     console.error("You must supply a wallet address to run this function.")
     process.exit(-1);
   }
+
+  await updateCache(false);
 
   const walletAddr = paramsArgv[0];
   console.info("Wallet address:", walletAddr);
