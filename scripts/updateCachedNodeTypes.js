@@ -38,17 +38,6 @@ const cacheNodes = async (ids, showErrors = true) => {
   return entries;
 }
 
-const updateCachedNodeTypes = async () => {
-  const latestId = await getNodeTotalCount() + 216; //Hacky fix
-
-  const newest = await fetchNewest(latestId);
-  const retried = await fetchMissing(latestId);
-
-  await writeFile('../data/nodeTypesById.json', JSON.stringify(cachedNodes, null, 2));
-
-  return Object.keys(Object.assign({}, newest, retried));
-}
-
 const fetchNewest = async (latestId) => {
   const cachedKeys = Object.keys(cachedNodes);
   const cachedCount = cachedKeys.length;
@@ -56,7 +45,7 @@ const fetchNewest = async (latestId) => {
   console.info(`Last node cached was #${cachedLastId}, latestNodeId is #${latestId}.`);
 
   if (cachedLastId === latestId) {
-    console.info("Cached node types & specialities are up-to date.");
+    console.info("Latest node types & specialities are up-to date.");
     return;
   }
 
@@ -90,8 +79,19 @@ const fetchMissing = async (latestId) => {
   return entries;
 }
 
-const execute = async () => {
-  const entries = await updateCachedNodeTypes();
+const updateCachedNodeTypes = async (retryMissing = true) => {
+  const latestId = await getNodeTotalCount() + 216; //Hacky fix
+
+  const newest = await fetchNewest(latestId);
+  const retried = retryMissing ? await fetchMissing(latestId) : {};
+
+  await writeFile('../data/nodeTypesById.json', JSON.stringify(cachedNodes, null, 2));
+
+  return Object.keys(Object.assign({}, newest, retried));
+}
+
+const execute = async (retryMissing) => {
+  const entries = await updateCachedNodeTypes(retryMissing);
   if (entries)
     console.info(`Successfully cached ${entries.length} new node types & specialities.`);
 }

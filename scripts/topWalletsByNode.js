@@ -39,7 +39,7 @@ const execute = async (paramsArgv) => {
   const nodeType = paramsArgv[0];
   console.info("Node search type:", nodeType);
 
-  await updateCachedNodeTypes();
+  await updateCachedNodeTypes(false);
   const topWallets = await topWalletsByNode(nodeType);
   console.info(`Successfully found top 25 wallets holding ${nodeType} nodes:`);
   console.info(JSON.stringify(topWallets, null, 2));

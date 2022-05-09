@@ -21,6 +21,7 @@ const execute = async (paramsArgv) => {
 
   const nodes = await getNodesByWalletAddress(walletAddr);
   const summary = summariseNodes(nodes);
+
   console.info("Nodes found for wallet:");
   console.info(JSON.stringify(summary, null, 2));
 }
