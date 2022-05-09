@@ -16,15 +16,14 @@ const getMissingIds = (latestId) => {
   return missingIds;
 };
 
-const cacheNodes = async (latestId) => {
-  const ids = getMissingIds(latestId);
+const cacheNodes = async (ids) => {
   console.info(`Fetching the type & speciality for ${ids.length} nodes...`);
 
   const entries = [];
   await PromisePool
     .for(ids)
     .withConcurrency(10)
-    .handleError(async (err, id, pool) => console.error(`[${id}] ${err.message}`))
+    .handleError(async (err, id, pool) => console.error(`[#${id}] ${err.message}`))
     .process(async (id, i, pool) => {
       const type = await getNodeType(id);
       const specialty = await getNodeSpeciality(id);
@@ -41,11 +40,20 @@ const cacheNodes = async (latestId) => {
 }
 
 const updateCachedNodeTypes = async () => {
+  const latestId = await getNodeTotalCount() + 216; //Hacky fix
 
+  const newest = await fetchNewest(latestId);
+  const retried = await fetchMissing(latestId);
+
+  await writeFile('../data/nodeTypesById.json', JSON.stringify(cachedNodes, null, 2));
+
+  return Object.keys(Object.assign({}, newest, retried));
+}
+
+const fetchNewest = async (latestId) => {
   const cachedKeys = Object.keys(cachedNodes);
   const cachedCount = cachedKeys.length;
   const cachedLastId = parseInt(cachedKeys[cachedCount - 1] ? cachedKeys[cachedCount - 1] : 0);
-  const latestId = await getNodeTotalCount() + 216; //Hacky fix
   console.info(`Last node cached was #${cachedLastId}, latestNodeId is #${latestId}.`);
 
   if (cachedLastId === latestId) {
@@ -53,12 +61,34 @@ const updateCachedNodeTypes = async () => {
     return;
   }
 
-  const newEntries = await cacheNodes(latestId);
-  const retriedEntries = await cacheNodes(latestId);
+  const ids = Array.from({length: latestId - cachedLastId}, (v, k) => cachedLastId + (k + 1));
+  console.info(`Fetching the type & speciality for ${ids.length} new nodes...`);
+  const entries = await cacheNodes(ids);
 
-  await writeFile('../data/nodeTypesById.json', JSON.stringify(cachedNodes, null, 2));
+  if (entries.length)
+    console.info(`Successfully fetched ${entries.length} new types.`);
 
-  return Object.assign({}, newEntries, retriedEntries);
+  if (entries.length !== ids.length)
+    console.info(`Failed to fetch ${ids.length - entries.length} new types.`);
+
+  return entries;
+
+}
+
+const fetchMissing = async (latestId) => {
+  const ids = getMissingIds(latestId);
+  if (!ids) return [];
+
+  console.info(`Attempting to fetch ${ids.length} missing types...`);
+  const entries = await cacheNodes(ids);
+
+  if (entries.length)
+    console.info(`Successfully fetched ${entries.length} missing types.`);
+
+  if (entries.length !== ids.length)
+    console.info(`Failed to fetch ${ids.length - entries.length} missing types.`);
+
+  return entries;
 }
 
 const execute = async () => {
