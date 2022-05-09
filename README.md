@@ -3,7 +3,7 @@
 1. `yarn install`
 2. `yarn start SCRIPT_NAME PARAM_1 PARAM_2 PARAM_3`
 
-### Get nodes by wallet address - nodesByWalletAddress
+### nodesByWallet - Get nodes by wallet address
 
 Example:
 
@@ -27,7 +27,7 @@ Nodes found for wallet:
 Done in 0.48s.
 ```
 
-### Get the total count of all nodes - totalNodeSupply
+### totalNodeSupply - Get the total count of all nodes
 
 Example:
 
@@ -41,7 +41,7 @@ Successfully found a total of 36004 nodes.
 Done in 0.28s.
 ```
 
-### Download the latest node types - updateCachedNodeTypes
+### updateCache - Download the latest node types
 
 Example:
 
@@ -60,7 +60,7 @@ Successfully cached 3 new node types & specialities.
 Done in 0.64s.
 ```
 
-### Summarises the counts of all cached nodes - summaryOfNodes
+### totalNodeSummary - Summarises the counts of all cached nodes 
 
 Example:
 
@@ -95,7 +95,7 @@ Done in 0.10s.
 ```
 
 
-### Search for the top 25 wallet holders by node type - topWalletsByNode
+### walletsByNode - Search for the top 25 wallet holders by node type
 
 Examples:
 

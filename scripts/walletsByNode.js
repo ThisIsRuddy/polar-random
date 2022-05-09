@@ -4,7 +4,7 @@ const nodesData = require('../data/nodeTypesById.json');
 const getNodeOwnerWallet = require('../requests/getNodeOwnerWallet');
 const updateCachedNodeTypes = require("./updateCachedNodeTypes");
 
-const topWalletsByNode = async (type) => {
+const walletsByNode = async (type) => {
 
   const nodes = Object.values(nodesData).filter(n => n.type.includes(type));
   console.info(`Total ${type} nodes found: ${nodes.length}.`);
@@ -40,7 +40,8 @@ const execute = async (paramsArgv) => {
   console.info("Node search type:", nodeType);
 
   await updateCachedNodeTypes(false);
-  const topWallets = await topWalletsByNode(nodeType);
+
+  const topWallets = await walletsByNode(nodeType);
   console.info(`Successfully found top 25 wallets holding ${nodeType} nodes:`);
   console.info(JSON.stringify(topWallets, null, 2));
 }

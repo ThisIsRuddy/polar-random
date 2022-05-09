@@ -2,7 +2,7 @@ const getNodeIdsByWallet = require('../requests/getNodeIdsByWallet');
 const getNodeById = require('../lib/getNodeById');
 const summariseNodes = require('../lib/summariseNodes');
 
-const getNodesByWalletAddress = async (walletAddr) => {
+const nodesByWallet = async (walletAddr) => {
   const nodeIds = await getNodeIdsByWallet(walletAddr);
   const getTypeJobs = nodeIds.map(async id => await getNodeById(id));
 
@@ -19,7 +19,7 @@ const execute = async (paramsArgv) => {
   const walletAddr = paramsArgv[0];
   console.info("Wallet address:", walletAddr);
 
-  const nodes = await getNodesByWalletAddress(walletAddr);
+  const nodes = await nodesByWallet(walletAddr);
   const summary = summariseNodes(nodes);
 
   console.info("Nodes found for wallet:");
