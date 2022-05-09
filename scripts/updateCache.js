@@ -20,7 +20,7 @@ const fetchAndCacheNodes = async (ids, showErrors = true) => {
   const entries = [];
   await PromisePool
     .for(ids)
-    .withConcurrency(10)
+    .withConcurrency(50)
     .handleError(async (err, id, pool) => {
       if (showErrors) console.error(`[#${id}] ${err.message}`)
     })
