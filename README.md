@@ -2,8 +2,30 @@
 
 1. `yarn install`
 2. `yarn start SCRIPT_NAME PARAM_1 PARAM_2 PARAM_3`
+3. `yarn start updateCache`
+
+### updateCache - Download the latest node types
+Each script will automatically get the latest node definitions but will ignore the nodes which could not be loaded. There are currently around ~212 nodes which it is not possible to load via the v3 contract for various reasons. Running this script will attempt to download the data for the missing entries.
+
+Example:
+
+`yarn start updateCachedNodeTypes`
+
+Results:
+
+```
+Attempting to load script: updateCachedNodeTypes
+Last node cached was #36039, latest totalSupply is 36042.
+Fetching the type & speciality for 4 new nodes...
+[0] Processing id: 36039...
+[1] Processing id: 36040...
+[2] Processing id: 36041...
+Successfully cached 3 new node types & specialities.
+Done in 0.64s.
+```
 
 ### nodesByWallet - Get nodes by wallet address
+Creates a summary break down by node type & speciality for the provided wallet address.
 
 Example:
 
@@ -28,7 +50,7 @@ Done in 0.48s.
 ```
 
 ### totalNodeSupply - Get the total count of all nodes
-
+Calls the totalNodeSupply function from the v3 contract (total differs from totalNodeSummary).
 Example:
 
 `yarn start totalNodeSupply`
@@ -41,26 +63,8 @@ Successfully found a total of 36004 nodes.
 Done in 0.28s.
 ```
 
-### updateCache - Download the latest node types
-
-Example:
-
-`yarn start updateCachedNodeTypes`
-
-Results:
-
-```
-Attempting to load script: updateCachedNodeTypes
-Last node cached was #36039, latest totalSupply is 36042.
-Fetching the type & speciality for 4 new nodes...
-[0] Processing id: 36039...
-[1] Processing id: 36040...
-[2] Processing id: 36041...
-Successfully cached 3 new node types & specialities.
-Done in 0.64s.
-```
-
 ### totalNodeSummary - Summarises the counts of all cached nodes 
+Amalgamates all node entries into a summarised report broken down by node type & speciality.
 
 Example:
 
@@ -96,6 +100,7 @@ Done in 0.10s.
 
 
 ### walletsByNode - Search for the top 25 wallet holders by node type
+Generates a list of wallets holding the specified node type.
 
 Examples:
 
