@@ -9,12 +9,12 @@ Each script will automatically get the latest node definitions but will ignore t
 
 Example:
 
-`yarn start updateCachedNodeTypes`
+`yarn start updateCache`
 
 Results:
 
 ```
-Attempting to load script: updateCachedNodeTypes
+Attempting to load script: updateCache
 Last node cached was #36039, latest totalSupply is 36042.
 Fetching the type & speciality for 4 new nodes...
 [0] Processing id: 36039...
@@ -29,12 +29,12 @@ Creates a summary break down by node type & speciality for the provided wallet a
 
 Example:
 
-`yarn start nodesByWalletAddress 0x6C1c0319d8dDcb0ffE1a68C5b3829Fd361587DB4`
+`yarn start nodesByWallet 0x6C1c0319d8dDcb0ffE1a68C5b3829Fd361587DB4`
 
 Results:
 
 ```
-Attempting to load script: nodesByWalletAddress
+Attempting to load script: nodesByWallet
 Wallet address: 0xe6570BBC5da67s6d87a8s7d69asd69as6d93
 Nodes found for wallet:
 {                   
@@ -68,12 +68,12 @@ Amalgamates all node entries into a summarised report broken down by node type &
 
 Example:
 
-`yarn start summaryOfNodes`
+`yarn start totalNodeSummary`
 
 Results:
 
 ```
-Attempting to load script: summaryOfNodes
+Attempting to load script: totalNodeSummary
 Successfully summarised node counts:
 {
   "total": 35806,
@@ -104,14 +104,14 @@ Generates a list of wallets holding the specified node type.
 
 Examples:
 
-`yarn start topWalletsByNode Fuji`
+`yarn start walletsByNode Fuji`
 
-`yarn start topWalletsByNode 'Everest Diamond'`
+`yarn start walletsByNode 'Everest Diamond'`
 
 Results:
 
 ```
-Attempting to load script: topWalletsByNode
+Attempting to load script: walletsByNode
 Node search type: Fuji Diamond
 Total Fuji Diamond nodes found: 18.
 [0] Processing node: #0...
