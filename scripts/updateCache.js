@@ -11,8 +11,6 @@ const getMissingIds = (latestId) => {
   const allIds = Array.from(Array(latestId + 1).keys()).map(n => n.toString());
 
   const missingIds = allIds.filter(id => !cachedIds.includes(id));
-  console.info(`Found ${missingIds.length} missing node types.`);
-
   return missingIds;
 };
 
@@ -86,6 +84,7 @@ const updateCache = async (retryMissing = true) => {
   const retried = retryMissing ? await fetchMissing(latestId) : {};
 
   await writeFile('../data/nodeTypesById.json', JSON.stringify(cachedNodes));
+  await writeFile('../data/missingNodes.json', JSON.stringify(getMissingIds(latestId)));
 
   return Object.keys(Object.assign({}, newest, retried));
 }
