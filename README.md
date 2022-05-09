@@ -15,13 +15,15 @@ Results:
 
 ```
 Attempting to load script: updateCache
-Last node cached was #36039, latest totalSupply is 36042.
-Fetching the type & speciality for 4 new nodes...
-[0] Processing id: 36039...
-[1] Processing id: 36040...
-[2] Processing id: 36041...
+Last node cached was #37151, latestNodeId is #37154.
+Fetching the type & speciality for 3 new nodes...
+Successfully fetched 3 new types.
+Found 212 missing node types.
+Attempting to fetch 212 missing node types...
+Failed to fetch 212 missing node types.
+Attempting to store to file ../data/nodeTypesById.json:
 Successfully cached 3 new node types & specialities.
-Done in 0.64s.
+Done in 37.32s.
 ```
 
 ### nodesByWallet - Get nodes by wallet address

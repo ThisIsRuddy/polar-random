@@ -67,14 +67,14 @@ const fetchMissing = async (latestId) => {
   const ids = getMissingIds(latestId);
   if (!ids) return [];
 
-  console.info(`Attempting to fetch ${ids.length} missing types...`);
+  console.info(`Attempting to fetch ${ids.length} missing node types...`);
   const entries = await fetchAndCacheNodes(ids, false);
 
   if (entries.length)
-    console.info(`Successfully fetched ${entries.length} missing types.`);
+    console.info(`Successfully fetched ${entries.length} missing node types.`);
 
   if (entries.length !== ids.length)
-    console.info(`Failed to fetch ${ids.length - entries.length} missing types.`);
+    console.info(`Failed to fetch ${ids.length - entries.length} missing node types.`);
 
   return entries;
 }
