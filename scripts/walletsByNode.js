@@ -2,7 +2,7 @@ const {PromisePool} = require('@supercharge/promise-pool');
 
 const nodesData = require('../data/nodeTypesById.json');
 const getNodeOwnerWallet = require('../requests/getNodeOwnerWallet');
-const updateCachedNodeTypes = require("./updateCachedNodeTypes");
+const updateCache = require("./updateCache");
 
 const walletsByNode = async (type) => {
 
@@ -39,7 +39,7 @@ const execute = async (paramsArgv) => {
   const nodeType = paramsArgv[0];
   console.info("Node search type:", nodeType);
 
-  await updateCachedNodeTypes(false);
+  await updateCache(false);
 
   const topWallets = await walletsByNode(nodeType);
   console.info(`Successfully found top 25 wallets holding ${nodeType} nodes:`);

@@ -1,6 +1,6 @@
 const nodesData = require('../data/nodeTypesById.json');
 const summariseNodes = require('../lib/summariseNodes');
-const updateCachedNodeTypes = require('./updateCachedNodeTypes');
+const updateCache = require('./updateCache');
 
 const totalNodeSummary = () => {
   const nodes = Object.values(nodesData);
@@ -9,7 +9,7 @@ const totalNodeSummary = () => {
 }
 
 const execute = async () => {
-  await updateCachedNodeTypes();
+  await updateCache();
   const summary = totalNodeSummary();
   console.info(`Successfully summarised node counts:`);
   console.info(JSON.stringify(summary, null, 2));
