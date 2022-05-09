@@ -16,12 +16,14 @@ const getMissingIds = (latestId) => {
   return missingIds;
 };
 
-const cacheNodes = async (ids) => {
+const cacheNodes = async (ids, showErrors = true) => {
   const entries = [];
   await PromisePool
     .for(ids)
     .withConcurrency(10)
-    .handleError(async (err, id, pool) => console.error(`[#${id}] ${err.message}`))
+    .handleError(async (err, id, pool) => {
+      if (showErrors) console.error(`[#${id}] ${err.message}`)
+    })
     .process(async (id, i, pool) => {
       const type = await getNodeType(id);
       const specialty = await getNodeSpeciality(id);
@@ -77,7 +79,7 @@ const fetchMissing = async (latestId) => {
   if (!ids) return [];
 
   console.info(`Attempting to fetch ${ids.length} missing types...`);
-  const entries = await cacheNodes(ids);
+  const entries = await cacheNodes(ids, false);
 
   if (entries.length)
     console.info(`Successfully fetched ${entries.length} missing types.`);
