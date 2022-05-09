@@ -17,8 +17,6 @@ const getMissingIds = (latestId) => {
 };
 
 const cacheNodes = async (ids) => {
-  console.info(`Fetching the type & speciality for ${ids.length} nodes...`);
-
   const entries = [];
   await PromisePool
     .for(ids)
@@ -35,7 +33,6 @@ const cacheNodes = async (ids) => {
       };
     });
 
-  console.info(`Successfully fetched ${entries.length} nodes.`);
   return entries;
 }
 
