@@ -1,0 +1,45 @@
+{
+  "fuji": {
+    "standard": 0.3825,
+    "silver": 0.595,
+    "gold": 0.74375,
+    "diamond": 1.04125,
+    "emerald": 1.19
+  },
+  "montBlanc": {
+    "standard": 0.8415,
+    "silver": 1.122,
+    "gold": 1.4025,
+    "diamond": 1.7,
+    "emerald": 2.125
+  },
+  "kilimanjaro": {
+    "standard": 4.2415,
+    "silver": 4.998,
+    "gold": 5.95,
+    "diamond": 8.0325,
+    "emerald": 9.996
+  },
+  "ushuaia": {
+    "standard": 7.8115,
+    "silver": 9.1375,
+    "gold": 10.455,
+    "diamond": 13.0475,
+    "emerald": 15.6825
+  },
+  "everest": {
+    "standard": 29.7415,
+    "silver": 31.875,
+    "gold": 34,
+    "diamond": 38.25,
+    "emerald": 44.625,
+    "ruby": 47.6
+  },
+  "olympus": {
+    "standard": 102,
+    "diamond": 114.75,
+    "emerald": 127.5,
+    "black": 140.25,
+    "egg": 153
+  }
+}
