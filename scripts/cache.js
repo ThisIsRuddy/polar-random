@@ -77,7 +77,7 @@ const fetchMissing = async (latestId) => {
   return entries;
 }
 
-const updateCache = async (retryMissing = true) => {
+const cache = async (retryMissing = true) => {
   const latestId = await getNodeTotalCount() + 223; //Hacky fix
 
   const newest = await fetchNewest(latestId);
@@ -90,7 +90,7 @@ const updateCache = async (retryMissing = true) => {
 }
 
 const execute = async (retryMissing) => {
-  const entries = await updateCache(retryMissing);
+  const entries = await cache(retryMissing);
   if (entries.length)
     console.info(`Successfully cached ${entries.length} new node types & specialities.`);
 }
