@@ -18,11 +18,13 @@ const fetchAndCacheNodes = async (ids, showErrors = true) => {
   const entries = [];
   await PromisePool
     .for(ids)
-    .withConcurrency(50)
+    .withConcurrency(5)
     .handleError(async (err, id, pool) => {
       if (showErrors) console.error(`[#${id}] ${err.message}`)
     })
     .process(async (id, i, pool) => {
+      console.info(`[${i + 1}/${ids.length}] Attempting to fetch #${id}...`);
+
       const type = await getNodeType(id);
       const specialty = await getNodeSpeciality(id);
       entries.push(id);
@@ -77,7 +79,7 @@ const fetchMissing = async (latestId) => {
   return entries;
 }
 
-const cache = async (retryMissing = true) => {
+const cacheNodes = async (retryMissing = true) => {
   const latestId = await getNodeTotalCount() + 223; //Hacky fix
 
   const newest = await fetchNewest(latestId);
@@ -90,7 +92,7 @@ const cache = async (retryMissing = true) => {
 }
 
 const execute = async (retryMissing) => {
-  const entries = await cache(retryMissing);
+  const entries = await cacheNodes(retryMissing);
   if (entries.length)
     console.info(`Successfully cached ${entries.length} new node types & specialities.`);
 }

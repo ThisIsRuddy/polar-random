@@ -2,7 +2,7 @@ const {PromisePool} = require('@supercharge/promise-pool');
 
 const nodesData = require('../data/nodeTypesById.json');
 const getNodeOwnerWallet = require('../requests/getNodeOwnerWallet');
-const updateCache = require("./cache");
+const updateCache = require("./cacheNodes");
 
 const execute = async (paramsArgv) => {
   if (!paramsArgv[0]) {
@@ -22,7 +22,7 @@ const execute = async (paramsArgv) => {
   console.info(`Searching for node owners...`);
   await PromisePool
     .for(nodes)
-    .withConcurrency(50)
+    .withConcurrency(5)
     .handleError(async (err, node, pool) => {
       console.error(`Failed to find owner wallet for node ${node.id}:`);
       console.error(err.message);

@@ -3,6 +3,8 @@ if (!process.argv[2]) {
   process.exit(-1);
 }
 
+require('dotenv').config();
+
 const loadScript = async (scriptName) => {
   console.info("Attempting to load script:", scriptName);
   try {

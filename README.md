@@ -5,7 +5,9 @@
 3. `yarn start cache`
 
 ### Commands
-`cache`
+`cacheNodes`
+
+`cacheWallets`
 
 `nodes`
 
@@ -15,20 +17,23 @@
 
 `emissions`
 
+`tokens`
+
+`tokens ${WALLET_ADR}`
 
 ---
 
-### `cache` - Update the local nodes cache
+### `cacheNodes` - Update the local nodes cache
 Each script will automatically get the latest node definitions but will ignore the nodes which could not be loaded. There are currently around ~212 nodes which it is not possible to load via the v3 contract for various reasons. Running this script will attempt to download the data for the missing entries.
 
 Example:
 
-`yarn start cache`
+`yarn start cacheNodes`
 
 Results:
 
 ```
-Attempting to load script: cache
+Attempting to load script: cacheNodes
 Last node cached was #37154, latestNodeId is #37156.
 Fetching the type & speciality for 2 new nodes...
 Successfully fetched 2 new types.
@@ -38,6 +43,33 @@ Attempting to store to file ../data/nodeTypesById.json:
 Attempting to store to file ../data/missingNodes.json:
 Successfully cached 2 new node types & specialities.
 Done in 32.97s.
+```
+
+---
+
+### `cacheWallets` - Update the local wallet addresses cache
+Each script requiring wallet address lookup will automatically trigger this script in order to get the latest addresses before execution.
+
+Example:
+
+`yarn start cacheWallets`
+
+Results:
+
+```
+Attempting to load script: cacheWallets
+There are 8176 node owners.
+Last node wallet idx was #8156, latestWalletIdx is #8176.
+Fetching wallet addresses for 20 new node holders...     
+[19/20] #8174 0xdDC79d0362a100e30158a02759f8175D2809f6Bc
+[13/20] #8168 0x77C500C5865D311CB7Eb648B206C016f2a102fc0
+[17/20] #8172 0xdDF14f9bCB41149289ba0D139b7AA67eDdA7961b
+...
+Successfully fetched 20 new wallet addresses.
+Attempting to store to file ../data/nodeWalletsById.json:
+Successfully cached 20 new node holder wallet addresses.
+Done in 0.49s.
+
 ```
 
 ---
@@ -178,4 +210,57 @@ Successfully summarised node emissions:
   ...
 }          
 Done in 2.5s.
+```
+
+---
+
+### `tokens` - Top 50 wallets by tokens
+Amalgamates pending & wallet token balances then sorts and returns top 50 addresses.
+
+Example:
+
+`yarn start tokens`
+
+Results:
+
+```
+Attempting to load script: tokens
+There are 8176 node owners.
+Last node wallet idx was #8175, latestWalletIdx is #8175.
+Latest node holder wallets are up-to date.
+Attempting to store to file ../data/nodeWalletsById.json:
+Generating tokens summary...
+Found 8176 wallet addresses.
+[100/8176] 1.22%
+[200/8176] 2.45%
+...
+Successfully summarised balance & pending tokens for 8175 wallets.
+Top 50 wallets by total:
+	[1]		0xe65…7843	39138.02
+	[2]		0xab3…a053	36073.7
+...
+Done in 354.36s.
+```
+
+---
+
+### `tokens {WALLET_ADR}` - Get tokens by wallet
+Returns wallet & pending balance for specified wallet.
+
+Example:
+
+`yarn start tokens 0xa1B670426A127F7fD0649E4fea95fFf4A077bD9E`
+
+Results:
+
+```
+Attempting to load script: tokens
+Finding tokens for wallet 0xa1B670426A127F7fD0649E4fea95fFf4A077bD9E...
+Successfully found the following tokens:
+{
+  "balance": 20930.336870086074,
+  "pending": 2463.7738216646085,
+  "total": 23394.110691750684
+}
+Done in 0.77s.
 ```

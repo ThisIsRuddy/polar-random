@@ -1,4 +1,4 @@
-const updateCache = require("./cache");
+const updateNodesCache = require("./cacheNodes");
 const nodesData = require("../data/nodeTypesById.json");
 const getNodeCountSummary = require("../lib/getNodeCountSummary");
 const getNodeIdsByWallet = require("../requests/getNodeIdsByWallet");
@@ -26,7 +26,7 @@ const runNodesByWallet = async (walletAddr) => {
 }
 
 const execute = async (paramsArgv) => {
-  await updateCache(false);
+  await updateNodesCache(false);
 
   const walletAddr = paramsArgv[0];
   if (walletAddr)

@@ -1,4 +1,4 @@
-const updateCache = require('./cache');
+const updateCache = require('./cacheNodes');
 const nodesData = require("../data/nodeTypesById.json");
 const getNodeCountSummary = require("../lib/getNodeCountSummary");
 const getNodeEmissionsSummary = require("../lib/getNodeEmissionsSummary");
