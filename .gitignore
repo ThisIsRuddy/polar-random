@@ -2,3 +2,6 @@
 node_modules
 yarn.lock
 test.js
+!.env.SAMPLE
+.env
+.env.*
