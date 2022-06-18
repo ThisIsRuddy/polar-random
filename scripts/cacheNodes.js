@@ -80,7 +80,7 @@ const fetchMissing = async (latestId) => {
 }
 
 const cacheNodes = async (retryMissing = true) => {
-  const latestId = await getNodeTotalCount() + 223; //Hacky fix
+  const latestId = await getNodeTotalCount() + 360; //Hacky fix
 
   const newest = await fetchNewest(latestId);
   const retried = retryMissing ? await fetchMissing(latestId) : {};
