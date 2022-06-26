@@ -3,6 +3,7 @@ const {PromisePool} = require('@supercharge/promise-pool');
 const nodesData = require('../data/nodeTypesById.json');
 const getNodeOwnerWallet = require('../requests/getNodeOwnerWallet');
 const updateCache = require("./cacheNodes");
+const toFriendlyHex = require("../lib/toFriendlyHex");
 
 const execute = async (paramsArgv) => {
   if (!paramsArgv[0]) {
@@ -36,11 +37,14 @@ const execute = async (paramsArgv) => {
 
   const sorted = Object.entries(results)
     .sort((a, b) => (a[1] < b[1]) ? 1 : -1)
-    .slice(0, 24);
-  const topWallets = Object.fromEntries(sorted);
+    .slice(0, 25);
 
-  console.info(`Successfully found top 25 wallets holding ${nodeType} nodes:`);
-  console.info(JSON.stringify(topWallets, null, 2));
+  console.info(`Successfully found top 25 wallets holding '${nodeType}' nodes:`);
+  let position = 1;
+  for (const [wallet, total] of sorted) {
+    console.info(`\t [${position}] ${toFriendlyHex(wallet)} ${total}`)
+    position++;
+  }
 }
 
 module.exports = execute;

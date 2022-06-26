@@ -4,6 +4,7 @@ const updateWalletsCache = require("./cacheWallets");
 const getWalletBalance = require("../requests/getWalletBalance");
 const getWalletRewards = require("../requests/getWalletRewards");
 const cachedWallets = require("../data/nodeWalletsById.json");
+const toFriendlyHex = require("../lib/toFriendlyHex");
 
 const fetchTokensByWallets = async (wallets) => {
   const entries = [];
@@ -42,16 +43,15 @@ const runTokensSummary = async () => {
   console.log(`Found ${wallets.length} wallet addresses.`);
 
   const summary = await fetchTokensByWallets(wallets);
-  console.info(`Successfully summarised tokens for ${summary.length} wallets.`);
-
   const top50 = summary.sort((a, b) => {
     if (a.total > b.total) return -1;
     if (a.total < b.total) return 1;
     return 0;
   }).slice(0, 50);
-  console.info(`Top 50 wallets by total:`);
+
+  console.info(`Successfully summarised the combined wallet & pending token balances for ${summary.length} wallets.`);
   top50.forEach(({wallet, total}, i) =>
-    console.info(`\t [${i + 1}] ${wallet} ${total.toFixed(2)}`)
+    console.info(`\t [${i + 1}] ${toFriendlyHex(wallet)} ${total.toFixed(2)}`)
   );
 }
 
