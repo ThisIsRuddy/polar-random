@@ -1,16 +1,15 @@
 const {PromisePool} = require('@supercharge/promise-pool');
 
-const updateWalletsCache = require("./cacheWallets");
+const updateOwners = require("./cacheOwners");
 const getWalletBalance = require("../requests/getWalletBalance");
 const getWalletRewards = require("../requests/getWalletRewards");
-const cachedWallets = require("../data/nodeWalletsById.json");
-const toFriendlyHex = require("../lib/toFriendlyHex");
+//const toFriendlyHex = require("../lib/toFriendlyHex");
 
 const fetchTokensByWallets = async (wallets) => {
   const entries = [];
   await PromisePool
     .for(wallets)
-    .withConcurrency(5)
+    .withConcurrency(2)
     .handleError(async (err, id, pool) => {
       console.error(`[${id}] ${err.message}`)
     })
@@ -36,10 +35,12 @@ const fetchTokensByWallets = async (wallets) => {
 }
 
 const runTokensSummary = async () => {
-  await updateWalletsCache();
   console.info(`Generating tokens summary...`);
 
-  const wallets = cachedWallets;
+  await updateOwners();
+  const cachedOwners = require("../data/nodeOwnersById.json");
+
+  const wallets = Object.values(cachedOwners);
   console.log(`Found ${wallets.length} wallet addresses.`);
 
   const summary = await fetchTokensByWallets(wallets);
@@ -51,7 +52,7 @@ const runTokensSummary = async () => {
 
   console.info(`Successfully summarised the combined wallet & pending token balances for ${summary.length} wallets.`);
   top50.forEach(({wallet, total}, i) =>
-    console.info(`\t [${i + 1}] ${toFriendlyHex(wallet)} ${total.toFixed(2)}`)
+    console.info(`\t [${i + 1}] ${/*toFriendlyHex(wallet)*/ wallet} ${total.toFixed(2)}`)
   );
 }
 

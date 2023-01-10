@@ -18,11 +18,12 @@ const fetchAndCacheNodes = async (ids, showErrors = true) => {
   const entries = [];
   await PromisePool
     .for(ids)
-    .withConcurrency(5)
+    .withConcurrency(2)
     .handleError(async (err, id, pool) => {
       if (showErrors) console.error(`[#${id}] ${err.message}`)
     })
     .process(async (id, i, pool) => {
+      const startTime = performance.now();
       console.info(`[${i + 1}/${ids.length}] Attempting to fetch #${id}...`);
 
       const type = await getNodeType(id);
@@ -33,6 +34,10 @@ const fetchAndCacheNodes = async (ids, showErrors = true) => {
         type: specialty ? `${type} ${specialty}` : type,
         special: specialty
       };
+      await writeFile('../data/nodeTypesById.json', JSON.stringify(cachedNodes));
+
+      const elapsed = ((performance.now() - startTime) / 1000).toFixed(2);
+      console.info(`[${i + 1}/${ids.length}] Fetch node #${id} took ${elapsed}s.`);
     });
 
   return entries;
@@ -60,7 +65,6 @@ const fetchNewest = async (latestId) => {
     console.info(`Failed to fetch ${ids.length - entries.length} new types.`);
 
   return entries;
-
 }
 
 const fetchMissing = async (latestId) => {
@@ -80,12 +84,11 @@ const fetchMissing = async (latestId) => {
 }
 
 const cacheNodes = async (retryMissing = true) => {
-  const latestId = await getNodeTotalCount() + 360; //Hacky fix
+  const latestId = await getNodeTotalCount() + 374; //Hacky fix
 
   const newest = await fetchNewest(latestId);
   const retried = retryMissing ? await fetchMissing(latestId) : {};
 
-  await writeFile('../data/nodeTypesById.json', JSON.stringify(cachedNodes));
   await writeFile('../data/missingNodes.json', JSON.stringify(getMissingIds(latestId)));
 
   return Object.keys(Object.assign({}, newest, retried));
