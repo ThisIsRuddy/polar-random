@@ -5,3 +5,4 @@ test.js
 .env
 .env.*
 !.env.SAMPLE
+package-lock.json
