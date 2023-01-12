@@ -37,7 +37,7 @@ const fetchNewest = async (latestId) => {
 
   if (cachedLastId === latestId) {
     console.info("Latest node owners are up-to date.");
-    return;
+    return [];
   }
 
   const ids = Array.from({length: latestId - cachedLastId}, (v, k) => cachedLastId + (k + 1));

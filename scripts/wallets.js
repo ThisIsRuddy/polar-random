@@ -12,16 +12,18 @@ const execute = async (paramsArgv) => {
   console.info(`Finding top 25 wallets holding ${nodeType} nodes...`);
 
   await updateNodeCache(false);
-  await updateOwnerCache(false);
+  await updateOwnerCache();
 
   const nodesData = require('../data/nodeTypesById.json');
   const nodes = Object.values(nodesData).filter(n => (n.type + ' ' + n.special).includes(nodeType));
   console.info(`Total ${nodeType} nodes found: ${nodes.length}...`);
 
-  const ownersData = require('../data/nodeOwnersById.json');
+  const owners = require('../data/nodeOwnersById.json');
   const results = {};
-  nodes.forEach(n => {
-    const wallet = ownersData[n];
+  nodes.forEach(({id}) => {
+    const wallet = owners[id];
+    if(!wallet)
+      console.log("id:", id, "wallet:", wallet);
     return !results[wallet] ? results[wallet] = 1 : results[wallet]++;
   })
 
